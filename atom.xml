@@ -3,11 +3,11 @@
   <title>Ternence</title>
   
   <subtitle>Ternenceの博客</subtitle>
-  <link href="https://github.com/luohongk/luohongkBlog/atom.xml" rel="self"/>
+  <link href="https://github.com/luohongk/luohongkBlog.git/atom.xml" rel="self"/>
   
-  <link href="https://github.com/luohongk/luohongkBlog/"/>
+  <link href="https://github.com/luohongk/luohongkBlog.git/"/>
   <updated>2022-11-20T10:41:10.313Z</updated>
-  <id>https://github.com/luohongk/luohongkBlog/</id>
+  <id>https://github.com/luohongk/luohongkBlog.git/</id>
   
   <author>
     <name>Ternence</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Smart3D三维立体影像的制作</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/15d2a3e9.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/15d2a3e9.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/15d2a3e9.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/15d2a3e9.html</id>
     <published>2022-11-20T16:00:00.000Z</published>
     <updated>2022-11-20T10:41:10.313Z</updated>
     
@@ -33,21 +33,21 @@
     
     
     
-    <category term="学习篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
+    <category term="学习篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
     
     
-    <category term="摄影测量" scheme="https://github.com/luohongk/luohongkBlog/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
+    <category term="摄影测量" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
     
-    <category term="课程学习" scheme="https://github.com/luohongk/luohongkBlog/tags/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    <category term="课程学习" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="Context capture" scheme="https://github.com/luohongk/luohongkBlog/tags/Context-capture/"/>
+    <category term="Context capture" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Context-capture/"/>
     
   </entry>
   
   <entry>
     <title>Anoconda使用总结</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d2z4e8.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d2z4e8.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2z4e8.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2z4e8.html</id>
     <published>2022-11-17T03:41:03.000Z</published>
     <updated>2022-11-17T13:21:50.384Z</updated>
     
@@ -61,21 +61,21 @@
     
     
     
-    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Hexo/"/>
     
-    <category term="Anoconda" scheme="https://github.com/luohongk/luohongkBlog/tags/Anoconda/"/>
+    <category term="Anoconda" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Anoconda/"/>
     
-    <category term="python" scheme="https://github.com/luohongk/luohongkBlog/tags/python/"/>
+    <category term="python" scheme="https://github.com/luohongk/luohongkBlog.git/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>pytorch学习</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d2a3e9.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d2a3e9.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a3e9.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a3e9.html</id>
     <published>2022-11-16T16:00:00.000Z</published>
     <updated>2022-11-20T10:41:17.469Z</updated>
     
@@ -89,21 +89,21 @@
     
     
     
-    <category term="学习篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
+    <category term="学习篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
     
     
-    <category term="深度学习" scheme="https://github.com/luohongk/luohongkBlog/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <category term="深度学习" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="pytorch" scheme="https://github.com/luohongk/luohongkBlog/tags/pytorch/"/>
+    <category term="pytorch" scheme="https://github.com/luohongk/luohongkBlog.git/tags/pytorch/"/>
     
-    <category term="神经网络" scheme="https://github.com/luohongk/luohongkBlog/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    <category term="神经网络" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
   <entry>
     <title>日常学习总结</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d2a4e9.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d2a4e9.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e9.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e9.html</id>
     <published>2022-11-16T16:00:00.000Z</published>
     <updated>2022-11-17T15:55:03.132Z</updated>
     
@@ -117,19 +117,19 @@
     
     
     
-    <category term="学习篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
+    <category term="学习篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
     
     
-    <category term="总结" scheme="https://github.com/luohongk/luohongkBlog/tags/%E6%80%BB%E7%BB%93/"/>
+    <category term="总结" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%80%BB%E7%BB%93/"/>
     
-    <category term="日常" scheme="https://github.com/luohongk/luohongkBlog/tags/%E6%97%A5%E5%B8%B8/"/>
+    <category term="日常" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
   <entry>
     <title>CNN神经网络个人理解</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d6a4e9.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d6a4e9.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d6a4e9.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d6a4e9.html</id>
     <published>2022-11-16T16:00:00.000Z</published>
     <updated>2022-11-17T15:52:07.742Z</updated>
     
@@ -143,19 +143,19 @@
     
     
     
-    <category term="学习篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
+    <category term="学习篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
     
     
-    <category term="深度学习" scheme="https://github.com/luohongk/luohongkBlog/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <category term="深度学习" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="神经网络" scheme="https://github.com/luohongk/luohongkBlog/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
+    <category term="神经网络" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
   <entry>
     <title>罗宏昆JAVA作业</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d2a4e9.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d2a4e9.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e9.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e9.html</id>
     <published>2022-11-15T16:00:00.000Z</published>
     <updated>2022-11-16T05:11:38.908Z</updated>
     
@@ -169,21 +169,21 @@
     
     
     
-    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Hexo/"/>
     
-    <category term="JAVA,简单算法" scheme="https://github.com/luohongk/luohongkBlog/tags/JAVA-%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/"/>
+    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="JAVA,简单算法" scheme="https://github.com/luohongk/luohongkBlog.git/tags/JAVA-%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>关于我的生活</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d1a4e9.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d1a4e9.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d1a4e9.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d1a4e9.html</id>
     <published>2022-11-15T16:00:00.000Z</published>
     <updated>2022-11-17T16:00:14.230Z</updated>
     
@@ -197,21 +197,21 @@
     
     
     
-    <category term="生活篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E7%94%9F%E6%B4%BB%E7%AF%87/"/>
+    <category term="生活篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E7%94%9F%E6%B4%BB%E7%AF%87/"/>
     
     
-    <category term="生活" scheme="https://github.com/luohongk/luohongkBlog/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E7%94%9F%E6%B4%BB/"/>
     
-    <category term="感受" scheme="https://github.com/luohongk/luohongkBlog/tags/%E6%84%9F%E5%8F%97/"/>
+    <category term="感受" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%84%9F%E5%8F%97/"/>
     
-    <category term="总结" scheme="https://github.com/luohongk/luohongkBlog/tags/%E6%80%BB%E7%BB%93/"/>
+    <category term="总结" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>三维点云与深度学习</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d2a4e2.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d2a4e2.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e2.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e2.html</id>
     <published>2022-11-15T16:00:00.000Z</published>
     <updated>2022-11-17T16:05:00.869Z</updated>
     
@@ -225,19 +225,19 @@
     
     
     
-    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="深度学习" scheme="https://github.com/luohongk/luohongkBlog/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    <category term="深度学习" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="点云" scheme="https://github.com/luohongk/luohongkBlog/tags/%E7%82%B9%E4%BA%91/"/>
+    <category term="点云" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E7%82%B9%E4%BA%91/"/>
     
   </entry>
   
   <entry>
     <title>C++算法思想与例题</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d2a4f3.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d2a4f3.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a4f3.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a4f3.html</id>
     <published>2022-11-15T16:00:00.000Z</published>
     <updated>2022-11-19T16:02:26.360Z</updated>
     
@@ -251,19 +251,19 @@
     
     
     
-    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="C++" scheme="https://github.com/luohongk/luohongkBlog/tags/C/"/>
+    <category term="C++" scheme="https://github.com/luohongk/luohongkBlog.git/tags/C/"/>
     
-    <category term="算法" scheme="https://github.com/luohongk/luohongkBlog/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>罗宏昆大数据可视化作业</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d2a4e3.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d2a4e3.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e3.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e3.html</id>
     <published>2022-11-14T16:00:00.000Z</published>
     <updated>2022-11-19T14:37:17.195Z</updated>
     
@@ -277,21 +277,21 @@
     
     
     
-    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Hexo/"/>
     
-    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="python,前端" scheme="https://github.com/luohongk/luohongkBlog/tags/python-%E5%89%8D%E7%AB%AF/"/>
+    <category term="python,前端" scheme="https://github.com/luohongk/luohongkBlog.git/tags/python-%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>罗宏昆个人简介</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/e3e08109.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/e3e08109.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/e3e08109.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/e3e08109.html</id>
     <published>2022-11-01T03:41:03.000Z</published>
     <updated>2022-11-20T11:00:57.120Z</updated>
     
@@ -305,21 +305,21 @@
     
     
     
-    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Hexo/"/>
     
-    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="Github" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Github/"/>
     
-    <category term="Github" scheme="https://github.com/luohongk/luohongkBlog/tags/Github/"/>
+    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
     <title>测量平差总结</title>
-    <link href="https://github.com/luohongk/luohongkBlog/posts/19d2a4e6.html"/>
-    <id>https://github.com/luohongk/luohongkBlog/posts/19d2a4e6.html</id>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e6.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e6.html</id>
     <published>2022-02-26T16:00:00.000Z</published>
     <updated>2022-11-16T04:15:52.442Z</updated>
     
@@ -333,14 +333,14 @@
     
     
     
-    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Hexo/"/>
     
-    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="测量平差" scheme="https://github.com/luohongk/luohongkBlog/tags/%E6%B5%8B%E9%87%8F%E5%B9%B3%E5%B7%AE/"/>
+    <category term="测量平差" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%B5%8B%E9%87%8F%E5%B9%B3%E5%B7%AE/"/>
     
   </entry>
   
