@@ -174,9 +174,9 @@
     
     <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Hexo/"/>
     
-    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="JAVA,简单算法" scheme="https://github.com/luohongk/luohongkBlog.git/tags/JAVA-%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -209,32 +209,6 @@
   </entry>
   
   <entry>
-    <title>三维点云与深度学习</title>
-    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e2.html"/>
-    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e2.html</id>
-    <published>2022-11-15T16:00:00.000Z</published>
-    <updated>2022-11-17T16:05:00.869Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="点云深度学习总结"><a href="#点云深度学习总结" class="headerlink" title="点云深度学习总结"></a>点云深度学习总结</h1><h2 id="Multi-view-CNN"><a href="#Multi-view-CNN" class="headerlink" title="Multi-view CNN"></a>Multi-view CNN</h2><p>立体通过不同部分角度的投影得到不同的CNN,然后经过后续的池化，然后经过CNN处理，然后进行分类。角度越多，精度越高，但是数据量越大。</p><h2 id="PointNet"><a href="#PointNet" class="headerlink" title="PointNet"></a>PointNet</h2><h3 id="unordered-Inout"><a href="#unordered-Inout" class="headerlink" title="unordered Inout"></a>unordered Inout</h3><p>无序，直接根据点云进行学习</p><p>MLP为多层感知机，三维到多维的变换，然后进行最大池化，PointNet可以拟合任意连续ide函数（有证明）</p><h3 id="PointNet分类网络的结构"><a href="#PointNet分类网络的结构" class="headerlink" title="PointNet分类网络的结构"></a>PointNet分类网络的结构</h3><h3 id="PintNet分割网络结构"><a href="#PintNet分割网络结构" class="headerlink" title="PintNet分割网络结构"></a>PintNet分割网络结构</h3><h3 id="关于神经网络的一些名词"><a href="#关于神经网络的一些名词" class="headerlink" title="关于神经网络的一些名词"></a>关于神经网络的一些名词</h3><p>卷积神经网络，全连接层，激活函数，损失函数</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
-    
-    
-    <category term="深度学习" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="点云" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E7%82%B9%E4%BA%91/"/>
-    
-  </entry>
-  
-  <entry>
     <title>C++算法思想与例题</title>
     <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a4f3.html"/>
     <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a4f3.html</id>
@@ -257,6 +231,32 @@
     <category term="C++" scheme="https://github.com/luohongk/luohongkBlog.git/tags/C/"/>
     
     <category term="算法" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三维点云与深度学习</title>
+    <link href="https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e2.html"/>
+    <id>https://github.com/luohongk/luohongkBlog.git/posts/19d2a4e2.html</id>
+    <published>2022-11-15T16:00:00.000Z</published>
+    <updated>2022-11-17T16:05:00.869Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="点云深度学习总结"><a href="#点云深度学习总结" class="headerlink" title="点云深度学习总结"></a>点云深度学习总结</h1><h2 id="Multi-view-CNN"><a href="#Multi-view-CNN" class="headerlink" title="Multi-view CNN"></a>Multi-view CNN</h2><p>立体通过不同部分角度的投影得到不同的CNN,然后经过后续的池化，然后经过CNN处理，然后进行分类。角度越多，精度越高，但是数据量越大。</p><h2 id="PointNet"><a href="#PointNet" class="headerlink" title="PointNet"></a>PointNet</h2><h3 id="unordered-Inout"><a href="#unordered-Inout" class="headerlink" title="unordered Inout"></a>unordered Inout</h3><p>无序，直接根据点云进行学习</p><p>MLP为多层感知机，三维到多维的变换，然后进行最大池化，PointNet可以拟合任意连续ide函数（有证明）</p><h3 id="PointNet分类网络的结构"><a href="#PointNet分类网络的结构" class="headerlink" title="PointNet分类网络的结构"></a>PointNet分类网络的结构</h3><h3 id="PintNet分割网络结构"><a href="#PintNet分割网络结构" class="headerlink" title="PintNet分割网络结构"></a>PintNet分割网络结构</h3><h3 id="关于神经网络的一些名词"><a href="#关于神经网络的一些名词" class="headerlink" title="关于神经网络的一些名词"></a>关于神经网络的一些名词</h3><p>卷积神经网络，全连接层，激活函数，损失函数</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="博客篇" scheme="https://github.com/luohongk/luohongkBlog.git/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
+    
+    
+    <category term="深度学习" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="点云" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E7%82%B9%E4%BA%91/"/>
     
   </entry>
   
@@ -310,9 +310,9 @@
     
     <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Hexo/"/>
     
-    <category term="Github" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Github/"/>
-    
     <category term="博客" scheme="https://github.com/luohongk/luohongkBlog.git/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Github" scheme="https://github.com/luohongk/luohongkBlog.git/tags/Github/"/>
     
   </entry>
   
