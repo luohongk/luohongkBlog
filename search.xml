@@ -91,33 +91,6 @@
     
     
     <entry>
-      <title>日常学习总结</title>
-      <link href="/luohongk.github.io/luohongkBlog/posts/19d2a4e9.html"/>
-      <url>/luohongk.github.io/luohongkBlog/posts/19d2a4e9.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongk.github.io\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongk.github.io\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="日常学习"><a href="#日常学习" class="headerlink" title="日常学习"></a>日常学习</h1><p>[TOC]</p><p>&gt;<br>&gt;</p><blockquote><p>&gt;<br>&gt;</p><blockquote><p>&gt;<br>&gt;<br>&gt;</p></blockquote></blockquote><h3 id="1-关于如何设置word的主题变成暗黑主题"><a href="#1-关于如何设置word的主题变成暗黑主题" class="headerlink" title="1.关于如何设置word的主题变成暗黑主题"></a>1.关于如何设置word的主题变成暗黑主题</h3><ol><li>首先是白色主题，如下</li><li>找到账户，改成深色背景</li><li>改成深色背景之后发现文档全部变成黑色，因此需要禁用深色模式</li><li>在主页找到视图选项卡，切换模式（有个小太阳）。切换就变成白色</li></ol><h3 id="2-如何将word的文档检查关闭"><a href="#2-如何将word的文档检查关闭" class="headerlink" title="2. 如何将word的文档检查关闭"></a>2. 如何将word的文档检查关闭</h3><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1667388225504.png" alt="1667388225504"></p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1667388259784.png" alt="1667388259784"></p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1667388326535.png" alt="1667388326535"></p><h3 id="常用的python镜像源"><a href="#常用的python镜像源" class="headerlink" title="常用的python镜像源"></a>常用的python镜像源</h3><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">清华：https://pypi.tuna.tsinghua.edu.cn/simple豆瓣：http://pypi.douban.com/simple/阿里云：http://mirrors.aliyun.com/pypi/simple/中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/华中理工大学：http://pypi.hustunique.com/山东理工大学：http://pypi.sdutlinux.org/pip安装指定包pip3 install -i https://pypi.doubanio.com/simple/ 需要安装的包名字<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="3-VLOOKUP函数总结"><a href="#3-VLOOKUP函数总结" class="headerlink" title="3.VLOOKUP函数总结"></a>3.VLOOKUP函数总结</h3><p>需要将表1的数据根据姓名进行匹配，最后将成绩显示在表2，需要在表2的B2单元格输入VLOOKUP()函数，VLOOKUP（公共字段在表2的位置,选中表1的所有数据,需要在表2填入的列名比如这个就是第二列就填2.）然后回车,有可能出现true与false的选项，不用管就行。</p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1667578431205.png" alt="1667578431205"></p><h3 id="4-如何查看pytorch的版本"><a href="#4-如何查看pytorch的版本" class="headerlink" title="4..如何查看pytorch的版本"></a>4..如何查看pytorch的版本</h3><p>输入如下代码并且运行</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> torch<span class="token keyword">print</span><span class="token punctuation">(</span>torch<span class="token punctuation">.</span>__version__<span class="token punctuation">)</span>  <span class="token comment">#注意是双下划线</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="5-英伟达控制面板闪退的问题"><a href="#5-英伟达控制面板闪退的问题" class="headerlink" title="5.英伟达控制面板闪退的问题"></a>5.英伟达控制面板闪退的问题</h3><p>C盘界面手找到 programData 这个文件夹（找不到的话把隐藏项目打开就行了），找到里面这个位置，删除所有nvdrsf0/1/2/3/4/5/6.bin的文件。</p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1668161986716.png" alt="1668161986716"></p><h3 id="6-配置torch的详细链接"><a href="#6-配置torch的详细链接" class="headerlink" title="6.配置torch的详细链接"></a>6.配置torch的详细链接</h3><pre class="line-numbers language-none"><code class="language-none">https://blog.csdn.net/qq_44707910/article/details/118096577<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="7-如何更改matlab的代码字体"><a href="#7-如何更改matlab的代码字体" class="headerlink" title="7.如何更改matlab的代码字体"></a>7.如何更改matlab的代码字体</h3><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1668238318846.png" alt="1668238318846"></p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1668238363629.png" alt="1668238363629"></p><h3 id="8-Anoconda创建虚拟环境"><a href="#8-Anoconda创建虚拟环境" class="headerlink" title="8.Anoconda创建虚拟环境"></a>8.Anoconda创建虚拟环境</h3><p><code>conda create -n pytorch_gpu python 3.7</code></p><h3 id="9-查看所有虚拟环境"><a href="#9-查看所有虚拟环境" class="headerlink" title="9.查看所有虚拟环境"></a>9.查看所有虚拟环境</h3><p><strong>查看所有虚拟环境： conda info -e</strong></p><p><strong>启动虚拟环境：activate 环境名</strong></p><h3 id="10-conda创建虚拟环境时出现的问题"><a href="#10-conda创建虚拟环境时出现的问题" class="headerlink" title="10.conda创建虚拟环境时出现的问题"></a>10.conda创建虚拟环境时出现的问题</h3><p><code>An unexpected error has occurred. Conda has prepared the above report.</code></p><p>解决方式</p><p><code>conda config --show-sources</code></p><p>如果出现</p><p><code>==&gt; /home/wangchunxiao/.condarc &lt;==</code></p><p>代表根目录出现.condarc，需要删除</p><h3 id="11-安装pytorch需要增加镜像源"><a href="#11-安装pytorch需要增加镜像源" class="headerlink" title="11.安装pytorch需要增加镜像源"></a>11.安装pytorch需要增加镜像源</h3><pre class="line-numbers language-none"><code class="language-none">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="12安装torch"><a href="#12安装torch" class="headerlink" title="12安装torch"></a>12安装torch</h3><ol><li>在网站<code>https://download.pytorch.org/whl/torch_stable.html</code>下载合适的版本</li><li>将下载的文件保存在某个目录下，cmd进入这个目录，执行pip install torch</li><li><img src="https://s2.loli.net/2022/11/16/W8QdTBpOnDbYGuH.png" alt="install_torch.png"></li><li>不用一个一个敲，pip install torch，然后tab,就会自动填充</li></ol><h3 id="11如何使用markdown语法自己定义表格（可实现markdown中表格的合并）"><a href="#11如何使用markdown语法自己定义表格（可实现markdown中表格的合并）" class="headerlink" title="11如何使用markdown语法自己定义表格（可实现markdown中表格的合并）"></a>11如何使用markdown语法自己定义表格（可实现markdown中表格的合并）</h3><p>网站<code>https://tableconvert.com/zh-cn/excel-to-html</code></p><p>复制excel到里面生成html,然后粘贴到marddown编辑器，合并需要修改html的源码，代表行，代表列，代表行方向占两个单元格，代表列方向占两个单元格(其实还可以嵌入其他css样式)</p><h3 id="12-EXCEL如何批量增加字符"><a href="#12-EXCEL如何批量增加字符" class="headerlink" title="12.EXCEL如何批量增加字符"></a>12.EXCEL如何批量增加字符</h3><p>首先设置单元格的格式为“常规”，然后在空单元格中输入<code>=待增加的单元格+&amp;+需要增加的字符</code></p><h3 id="13Anoconda查看，进入，删除虚拟环境-创建虚拟环境"><a href="#13Anoconda查看，进入，删除虚拟环境-创建虚拟环境" class="headerlink" title="13Anoconda查看，进入，删除虚拟环境,创建虚拟环境"></a>13Anoconda查看，进入，删除虚拟环境,创建虚拟环境</h3><p><strong>查看所有虚拟环境：</strong></p><pre class="line-numbers language-none"><code class="language-none">conda info -e<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>进入虚拟环境：</strong></p><pre class="line-numbers language-none"><code class="language-none">activate 环境名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>删除虚拟环境：</strong></p><pre class="line-numbers language-none"><code class="language-none">conda remove -n (虚拟环境名称) --all<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>创建虚拟环境</strong></p><pre class="line-numbers language-text" data-language="text"><code class="language-text">conda create -n （环境名称） python=x.x<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习篇 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 日常 </tag>
-            
-            <tag> 总结 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>CNN神经网络个人理解</title>
       <link href="/luohongk.github.io/luohongkBlog/posts/19d6a4e9.html"/>
       <url>/luohongk.github.io/luohongkBlog/posts/19d6a4e9.html</url>
@@ -145,6 +118,33 @@
     
     
     <entry>
+      <title>日常学习总结</title>
+      <link href="/luohongk.github.io/luohongkBlog/posts/19d2a4e9.html"/>
+      <url>/luohongk.github.io/luohongkBlog/posts/19d2a4e9.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongk.github.io\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongk.github.io\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="日常学习"><a href="#日常学习" class="headerlink" title="日常学习"></a>日常学习</h1><p>[TOC]</p><p>&gt;<br>&gt;</p><blockquote><p>&gt;<br>&gt;</p><blockquote><p>&gt;<br>&gt;<br>&gt;</p></blockquote></blockquote><h3 id="1-关于如何设置word的主题变成暗黑主题"><a href="#1-关于如何设置word的主题变成暗黑主题" class="headerlink" title="1.关于如何设置word的主题变成暗黑主题"></a>1.关于如何设置word的主题变成暗黑主题</h3><ol><li>首先是白色主题，如下</li><li>找到账户，改成深色背景</li><li>改成深色背景之后发现文档全部变成黑色，因此需要禁用深色模式</li><li>在主页找到视图选项卡，切换模式（有个小太阳）。切换就变成白色</li></ol><h3 id="2-如何将word的文档检查关闭"><a href="#2-如何将word的文档检查关闭" class="headerlink" title="2. 如何将word的文档检查关闭"></a>2. 如何将word的文档检查关闭</h3><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1667388225504.png" alt="1667388225504"></p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1667388259784.png" alt="1667388259784"></p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1667388326535.png" alt="1667388326535"></p><h3 id="常用的python镜像源"><a href="#常用的python镜像源" class="headerlink" title="常用的python镜像源"></a>常用的python镜像源</h3><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">清华：https://pypi.tuna.tsinghua.edu.cn/simple豆瓣：http://pypi.douban.com/simple/阿里云：http://mirrors.aliyun.com/pypi/simple/中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/华中理工大学：http://pypi.hustunique.com/山东理工大学：http://pypi.sdutlinux.org/pip安装指定包pip3 install -i https://pypi.doubanio.com/simple/ 需要安装的包名字<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="3-VLOOKUP函数总结"><a href="#3-VLOOKUP函数总结" class="headerlink" title="3.VLOOKUP函数总结"></a>3.VLOOKUP函数总结</h3><p>需要将表1的数据根据姓名进行匹配，最后将成绩显示在表2，需要在表2的B2单元格输入VLOOKUP()函数，VLOOKUP（公共字段在表2的位置,选中表1的所有数据,需要在表2填入的列名比如这个就是第二列就填2.）然后回车,有可能出现true与false的选项，不用管就行。</p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1667578431205.png" alt="1667578431205"></p><h3 id="4-如何查看pytorch的版本"><a href="#4-如何查看pytorch的版本" class="headerlink" title="4..如何查看pytorch的版本"></a>4..如何查看pytorch的版本</h3><p>输入如下代码并且运行</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> torch<span class="token keyword">print</span><span class="token punctuation">(</span>torch<span class="token punctuation">.</span>__version__<span class="token punctuation">)</span>  <span class="token comment">#注意是双下划线</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="5-英伟达控制面板闪退的问题"><a href="#5-英伟达控制面板闪退的问题" class="headerlink" title="5.英伟达控制面板闪退的问题"></a>5.英伟达控制面板闪退的问题</h3><p>C盘界面手找到 programData 这个文件夹（找不到的话把隐藏项目打开就行了），找到里面这个位置，删除所有nvdrsf0/1/2/3/4/5/6.bin的文件。</p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1668161986716.png" alt="1668161986716"></p><h3 id="6-配置torch的详细链接"><a href="#6-配置torch的详细链接" class="headerlink" title="6.配置torch的详细链接"></a>6.配置torch的详细链接</h3><pre class="line-numbers language-none"><code class="language-none">https://blog.csdn.net/qq_44707910/article/details/118096577<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="7-如何更改matlab的代码字体"><a href="#7-如何更改matlab的代码字体" class="headerlink" title="7.如何更改matlab的代码字体"></a>7.如何更改matlab的代码字体</h3><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1668238318846.png" alt="1668238318846"></p><p><img src="C:\Users\26389\AppData\Roaming\Typora\typora-user-images\1668238363629.png" alt="1668238363629"></p><h3 id="8-Anoconda创建虚拟环境"><a href="#8-Anoconda创建虚拟环境" class="headerlink" title="8.Anoconda创建虚拟环境"></a>8.Anoconda创建虚拟环境</h3><p><code>conda create -n pytorch_gpu python 3.7</code></p><h3 id="9-查看所有虚拟环境"><a href="#9-查看所有虚拟环境" class="headerlink" title="9.查看所有虚拟环境"></a>9.查看所有虚拟环境</h3><p><strong>查看所有虚拟环境： conda info -e</strong></p><p><strong>启动虚拟环境：activate 环境名</strong></p><h3 id="10-conda创建虚拟环境时出现的问题"><a href="#10-conda创建虚拟环境时出现的问题" class="headerlink" title="10.conda创建虚拟环境时出现的问题"></a>10.conda创建虚拟环境时出现的问题</h3><p><code>An unexpected error has occurred. Conda has prepared the above report.</code></p><p>解决方式</p><p><code>conda config --show-sources</code></p><p>如果出现</p><p><code>==&gt; /home/wangchunxiao/.condarc &lt;==</code></p><p>代表根目录出现.condarc，需要删除</p><h3 id="11-安装pytorch需要增加镜像源"><a href="#11-安装pytorch需要增加镜像源" class="headerlink" title="11.安装pytorch需要增加镜像源"></a>11.安装pytorch需要增加镜像源</h3><pre class="line-numbers language-none"><code class="language-none">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="12安装torch"><a href="#12安装torch" class="headerlink" title="12安装torch"></a>12安装torch</h3><ol><li>在网站<code>https://download.pytorch.org/whl/torch_stable.html</code>下载合适的版本</li><li>将下载的文件保存在某个目录下，cmd进入这个目录，执行pip install torch</li><li><img src="https://s2.loli.net/2022/11/16/W8QdTBpOnDbYGuH.png" alt="install_torch.png"></li><li>不用一个一个敲，pip install torch，然后tab,就会自动填充</li></ol><h3 id="11如何使用markdown语法自己定义表格（可实现markdown中表格的合并）"><a href="#11如何使用markdown语法自己定义表格（可实现markdown中表格的合并）" class="headerlink" title="11如何使用markdown语法自己定义表格（可实现markdown中表格的合并）"></a>11如何使用markdown语法自己定义表格（可实现markdown中表格的合并）</h3><p>网站<code>https://tableconvert.com/zh-cn/excel-to-html</code></p><p>复制excel到里面生成html,然后粘贴到marddown编辑器，合并需要修改html的源码，代表行，代表列，代表行方向占两个单元格，代表列方向占两个单元格(其实还可以嵌入其他css样式)</p><h3 id="12-EXCEL如何批量增加字符"><a href="#12-EXCEL如何批量增加字符" class="headerlink" title="12.EXCEL如何批量增加字符"></a>12.EXCEL如何批量增加字符</h3><p>首先设置单元格的格式为“常规”，然后在空单元格中输入<code>=待增加的单元格+&amp;+需要增加的字符</code></p><h3 id="13Anoconda查看，进入，删除虚拟环境-创建虚拟环境"><a href="#13Anoconda查看，进入，删除虚拟环境-创建虚拟环境" class="headerlink" title="13Anoconda查看，进入，删除虚拟环境,创建虚拟环境"></a>13Anoconda查看，进入，删除虚拟环境,创建虚拟环境</h3><p><strong>查看所有虚拟环境：</strong></p><pre class="line-numbers language-none"><code class="language-none">conda info -e<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>进入虚拟环境：</strong></p><pre class="line-numbers language-none"><code class="language-none">activate 环境名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>删除虚拟环境：</strong></p><pre class="line-numbers language-none"><code class="language-none">conda remove -n (虚拟环境名称) --all<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>创建虚拟环境</strong></p><pre class="line-numbers language-text" data-language="text"><code class="language-text">conda create -n （环境名称） python=x.x<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 总结 </tag>
+            
+            <tag> 日常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>罗宏昆JAVA作业</title>
       <link href="/luohongk.github.io/luohongkBlog/posts/19d2a4e9.html"/>
       <url>/luohongk.github.io/luohongkBlog/posts/19d2a4e9.html</url>
@@ -163,9 +163,9 @@
             
             <tag> Hexo </tag>
             
-            <tag> 博客 </tag>
-            
             <tag> JAVA,简单算法 </tag>
+            
+            <tag> 博客 </tag>
             
         </tags>
       
@@ -190,38 +190,11 @@
       
         <tags>
             
-            <tag> 总结 </tag>
-            
             <tag> 生活 </tag>
             
             <tag> 感受 </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>三维点云与深度学习</title>
-      <link href="/luohongk.github.io/luohongkBlog/posts/19d2a4e2.html"/>
-      <url>/luohongk.github.io/luohongkBlog/posts/19d2a4e2.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongk.github.io\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongk.github.io\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="点云深度学习总结"><a href="#点云深度学习总结" class="headerlink" title="点云深度学习总结"></a>点云深度学习总结</h1><h2 id="Multi-view-CNN"><a href="#Multi-view-CNN" class="headerlink" title="Multi-view CNN"></a>Multi-view CNN</h2><p>立体通过不同部分角度的投影得到不同的CNN,然后经过后续的池化，然后经过CNN处理，然后进行分类。角度越多，精度越高，但是数据量越大。</p><h2 id="PointNet"><a href="#PointNet" class="headerlink" title="PointNet"></a>PointNet</h2><h3 id="unordered-Inout"><a href="#unordered-Inout" class="headerlink" title="unordered Inout"></a>unordered Inout</h3><p>无序，直接根据点云进行学习</p><p>MLP为多层感知机，三维到多维的变换，然后进行最大池化，PointNet可以拟合任意连续ide函数（有证明）</p><h3 id="PointNet分类网络的结构"><a href="#PointNet分类网络的结构" class="headerlink" title="PointNet分类网络的结构"></a>PointNet分类网络的结构</h3><h3 id="PintNet分割网络结构"><a href="#PintNet分割网络结构" class="headerlink" title="PintNet分割网络结构"></a>PintNet分割网络结构</h3><h3 id="关于神经网络的一些名词"><a href="#关于神经网络的一些名词" class="headerlink" title="关于神经网络的一些名词"></a>关于神经网络的一些名词</h3><p>卷积神经网络，全连接层，激活函数，损失函数</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 博客篇 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 深度学习 </tag>
-            
-            <tag> 点云 </tag>
+            <tag> 总结 </tag>
             
         </tags>
       
@@ -249,6 +222,33 @@
             <tag> C++ </tag>
             
             <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>三维点云与深度学习</title>
+      <link href="/luohongk.github.io/luohongkBlog/posts/19d2a4e2.html"/>
+      <url>/luohongk.github.io/luohongkBlog/posts/19d2a4e2.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongk.github.io\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongk.github.io\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="点云深度学习总结"><a href="#点云深度学习总结" class="headerlink" title="点云深度学习总结"></a>点云深度学习总结</h1><h2 id="Multi-view-CNN"><a href="#Multi-view-CNN" class="headerlink" title="Multi-view CNN"></a>Multi-view CNN</h2><p>立体通过不同部分角度的投影得到不同的CNN,然后经过后续的池化，然后经过CNN处理，然后进行分类。角度越多，精度越高，但是数据量越大。</p><h2 id="PointNet"><a href="#PointNet" class="headerlink" title="PointNet"></a>PointNet</h2><h3 id="unordered-Inout"><a href="#unordered-Inout" class="headerlink" title="unordered Inout"></a>unordered Inout</h3><p>无序，直接根据点云进行学习</p><p>MLP为多层感知机，三维到多维的变换，然后进行最大池化，PointNet可以拟合任意连续ide函数（有证明）</p><h3 id="PointNet分类网络的结构"><a href="#PointNet分类网络的结构" class="headerlink" title="PointNet分类网络的结构"></a>PointNet分类网络的结构</h3><h3 id="PintNet分割网络结构"><a href="#PintNet分割网络结构" class="headerlink" title="PintNet分割网络结构"></a>PintNet分割网络结构</h3><h3 id="关于神经网络的一些名词"><a href="#关于神经网络的一些名词" class="headerlink" title="关于神经网络的一些名词"></a>关于神经网络的一些名词</h3><p>卷积神经网络，全连接层，激活函数，损失函数</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 深度学习 </tag>
+            
+            <tag> 点云 </tag>
             
         </tags>
       
@@ -304,9 +304,9 @@
             
             <tag> Hexo </tag>
             
-            <tag> Github </tag>
-            
             <tag> 博客 </tag>
+            
+            <tag> Github </tag>
             
         </tags>
       
@@ -319,7 +319,7 @@
       <link href="/luohongk.github.io/luohongkBlog/posts/19d2a4e6.html"/>
       <url>/luohongk.github.io/luohongkBlog/posts/19d2a4e6.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongk.github.io\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongk.github.io\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>总体感觉测量平差这门课还是不是很容易，需要比较深刻的理解概念还要会相关的推导，比如<font>精密度</font><font>精确度</font><font>准确度</font><font>粗值</font><font>观测值</font><font>平差值</font>等。</p><p><span alt="emp">主体内容就是间接平差，条件平差。在这两者基础之上，间接平差参数选择比较多，就出现附有限制条件的间接平差。如果条件平差又有参数，就称作附有参数的条件平差 。然后是误差椭圆，分析误差分布规律的，哪里误差大，哪里误差小。最后为了评定平差结果或者精度的好坏，又有一部分参数检验和假设检验的内容，不过基本都是概率论的内容，比如U检验，T检验等，所以还是需要熟悉一些参数的构造。</span></p><h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="观测误差的分类及其处理"><a href="#观测误差的分类及其处理" class="headerlink" title="观测误差的分类及其处理"></a>观测误差的分类及其处理</h2><p>给出误差分类的表达式，粗差、系统误差和偶然误差的定义。</p><ul><li>系统误差：在相同的观测条件下作一系列的观测，如果误差在大小、符号上表现出系统性，或者在观测过程中按一定的规律变化，或者为某一常数，那么，这种误差称为系统误差。简言之，符合函数规律的误差称为系统误差。</li></ul><ul><li>偶然误差：在相同的观测条件下作一系列的观测，如果误差在大小和符号上都表现出偶然性，即从单个误差看，该列误差的大小和符号没有规律性，但就大量误差的总体而言，具有一定的统计规律，这种误差称为偶然误差。简言之，符合统计规律的误差称为偶然误差。</li></ul><p>误差来源：来源于测量仪器，观测者，外界条件</p><h2 id="精度，准确度，精确度"><a href="#精度，准确度，精确度" class="headerlink" title="精度，准确度，精确度"></a>精度，准确度，精确度</h2><p><img src="https://s3.bmp.ovh/imgs/2022/05/06/b23c97d0fb907a2d.jpg" alt=""></p><h2 id="误差传播定律和协因数传播定律"><a href="#误差传播定律和协因数传播定律" class="headerlink" title="误差传播定律和协因数传播定律"></a>误差传播定律和协因数传播定律</h2><p><span alt="hollow">这部分其实很简单，就是将需要计算方差的量与已知协因数阵的量建立联系，然后根据公式求</span></p><script type="math/tex; mode=display">D_{ZY}=KD_{XX}F^T</script><p><span alt="wavy">这个公式如果看不懂就没救了，赶紧复习吧。</span></p><h2 id="定权"><a href="#定权" class="headerlink" title="定权"></a>定权</h2><p>水准</p><script type="math/tex; mode=display">\sigma _{h_{AB}}=\sqrt{n}\sigma _0\left( \sigma _0\text{为每一站的中误差} \right)</script><script type="math/tex; mode=display">\text{注意：地势平坦时}\sqrt{n}\text{换成}\sqrt{S}</script><p><span alt="blink">同精度观测值的算数平均数的精度？？自己想想</span></p><h2 id="常见的数学模型"><a href="#常见的数学模型" class="headerlink" title="常见的数学模型"></a>常见的数学模型</h2><ol><li>间接平差：将观测值的改正数用参数表示出来；方程总数：n；参数个数u=t;自由度f=r=n-t;</li><li>条件平差: 根据已知图形的客观条件进行列些方程式；方程总数：r；参数个数u=0;自由度f=r=n-t;</li><li>具有参数的条件平差: 以条件方程为主，结合相应选择的参数1进行列写方程；方程总数：r+u；参数个数u&lt;t;自由度f=r=n-t;</li><li>附有条件的参数平差:以选择的参数为主，客观条件为辅进行列些方程；方程总数：n+s；参数个数u&gt;t;自由度f=r=n-t;s=u-t;</li></ol><h2 id="最小二乘原理"><a href="#最小二乘原理" class="headerlink" title="最小二乘原理"></a>最小二乘原理</h2><p><span alt="rainbow">代数角度</span></p><script type="math/tex; mode=display">V^TPV=\min</script><p>(其中，V为观测值的改正数向量）；</p><p><span alt="shake">概率角度：结合正态分布的最大似然估计进行求解</span></p><h2 id="条件平差原理"><a href="#条件平差原理" class="headerlink" title="条件平差原理"></a>条件平差原理</h2><p><span alt="modern">由于观测值个数多于必要观测数，产生了多余观测，因此会有额外的条件进行列立方程式。方程式个数即为多余观测数，r=n-t。</span></p><h2 id="条件方程列立"><a href="#条件方程列立" class="headerlink" title="条件方程列立"></a>条件方程列立</h2><h3 id="水准网"><a href="#水准网" class="headerlink" title="水准网"></a>水准网</h3><p>有已知水准点的水准网中，必要观测数为未知点数；在没有已知水准点的水准网中，必要观测数为全部网点数减1。</p><h3 id="测角网"><a href="#测角网" class="headerlink" title="测角网"></a>测角网</h3><p>基本条件：图形条件，圆周条件，极条件（固定角条件，固定边条件）；</p><ul><li>图形条件：内角和的条件，如三角形内角和为180°等。</li></ul><ul><li>圆周条件：又称水平条件，即围绕一中心点的各角之和为360°。</li></ul><ul><li>极条件：从一已知边出发，经过不同路径到达另一已知边，理论上结果应该相同。</li></ul><h3 id="测边网"><a href="#测边网" class="headerlink" title="测边网"></a>测边网</h3><p><strong>应用场景有大地四边形，中点多边形等；</strong></p><p>具体方法：角度闭合法，即由测得的边长结合三角形的正余弦条件，推算出角度与边长的关系，进而求得角度改正数与边长改正数的联系，得到角度改正数方程：</p><script type="math/tex; mode=display">V_a=\rho ^{''}\left( V_{S_a}-\cos CV_{S_b}-\cos BV_{S_c} \right) /h_a</script><h3 id="导线网"><a href="#导线网" class="headerlink" title="导线网"></a>导线网</h3><p>对于单一附和导线，要测定一个未知点坐标，必须要测得一条导线边和一个水平角，则若有n-1个未知点，必要观测数t=2（n-1)；总观测值数为n条边长和n+1个水平角共2n+1个，则多余观测恒为3个，故单一附和导线中只有3个条件方程。</p><h2 id="精度评定"><a href="#精度评定" class="headerlink" title="精度评定"></a>精度评定</h2><p>闭合差的协因数阵？联系向量的协因数阵，改正数的协因数阵，观测值的平差值的谐因数阵，都记得吗？</p><h2 id="间接平差原理"><a href="#间接平差原理" class="headerlink" title="间接平差原理"></a>间接平差原理</h2><p>点击确定n，t，u。根据集合关系，列出</p><script type="math/tex; mode=display">V=B\hat{x}-L</script><p>勇最小二乘原理求解</p><script type="math/tex; mode=display">V^TPV=\min</script><h2 id="间接平差的重要公式"><a href="#间接平差的重要公式" class="headerlink" title="间接平差的重要公式"></a>间接平差的重要公式</h2><script type="math/tex; mode=display">B^TPV=0</script><script type="math/tex; mode=display">N_{BB}\hat{x}=W</script><script type="math/tex; mode=display">\hat{x}=\left( B^TPB \right) ^{-1}B^TPL</script><p>这些公式记得吗？</p><h2 id="间接平差重点知识"><a href="#间接平差重点知识" class="headerlink" title="间接平差重点知识"></a>间接平差重点知识</h2><p>1：间接平差的计算步骤</p><p>2：测方向的三角网模型</p><p>3：测角网的函数模型（尤其是反正切的线性化）</p><p><img src="https://s3.bmp.ovh/imgs/2022/05/11/3b33cf07e195bf62.jpg" alt=""></p><p>4：测边网的函数模型（根号的正向化）</p><p><img src="https://s3.bmp.ovh/imgs/2022/05/11/5f61808aef0abd37.jpg" alt=""></p><h2 id="附有参数的条件平差"><a href="#附有参数的条件平差" class="headerlink" title="附有参数的条件平差"></a>附有参数的条件平差</h2><p>模型</p><script type="math/tex; mode=display">AV+Bx-W=0</script><script type="math/tex; mode=display">D=\sigma _{0}^{2}Q=\sigma _{0}^{2}P^{-1}</script><p>法方程</p><script type="math/tex; mode=display">N_{aa}K+B\hat{x}-W=0</script><script type="math/tex; mode=display">B^TK=0</script><p>解</p><script type="math/tex; mode=display">K=N_{aa}^{-1}\left( W-B\hat{x} \right)</script><script type="math/tex; mode=display">\hat{x}=N_{bb}^{-1}B^TN_{aa}^{-1}W</script><h2 id="附有限制条件的间接平差"><a href="#附有限制条件的间接平差" class="headerlink" title="附有限制条件的间接平差"></a>附有限制条件的间接平差</h2><p>函数模型</p><script type="math/tex; mode=display">V=B\hat{x}-L</script><script type="math/tex; mode=display">C\hat{x}+W_x=0</script><p>法方程</p><script type="math/tex; mode=display">N_{bb}\hat{x}+C^TK_s-W=0</script><script type="math/tex; mode=display">C\hat{x}-W_x=0</script><p>联系向量</p><script type="math/tex; mode=display">K_s=N_{cc}^{-1}\left( CN_{bb}^{-1}W+W_x \right)</script><script type="math/tex; mode=display">N_{cc}=CN_{bb}^{-1}C^T</script><h2 id="误差椭圆"><a href="#误差椭圆" class="headerlink" title="误差椭圆"></a>误差椭圆</h2><p>误差椭圆的三个参数：长半轴，短半轴，长半轴或者短半轴的方向</p><p>点位误差曲线：以极大值方向与极小值方向的交点为极点，极大值方向为极轴，以坐标北为起算的角为极角变量，相应方向的中误差为极径变量。最后形成一个封闭曲线</p><p>点位方差计算公式</p><script type="math/tex; mode=display">\sigma _P^2=\sigma _{X}^{2}+\sigma _{Y}^{2}</script><p>任意方向的位差公式</p><script type="math/tex; mode=display">\sigma _{\varphi}^{2}=\sigma _{0}^{2}\left( Q_{xx}\cos ^2\varphi +Q_{yy}\sin ^2\varphi +Q_{xy}\sin 2\varphi \right)</script><p>极大值E，极小值F的判断方法</p><script type="math/tex; mode=display">\tan 2\varphi _0=\frac{2Q_{xy}}{Q_{xx}-Q_{xy}}\text{，}\left( \varphi _0\text{为极值方向} \right)</script><p>重要的计算公式</p><script type="math/tex; mode=display">K=\sqrt{\left( Q_{xx}-Q_{xy} \right) ^2+4Q_{xy}^2}</script><script type="math/tex; mode=display">E^2=\frac{1}{2}\sigma _0^2\left[ \left( Q_{xx}+Q_{yy} \right) +K \right]</script><script type="math/tex; mode=display">F^2=\frac{1}{2}\sigma _0^2\left[ \left( Q_{xx}+Q_{yy} \right) -K \right]</script><script type="math/tex; mode=display">\sigma _{p}^{2}=E^2+F^2</script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongk.github.io\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongk.github.io\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>总体感觉测量平差这门课还是不是很容易，需要比较深刻的理解概念还要会相关的推导，比如<code>&lt;font&gt;</code>精密度<code>&lt;/font&gt;&lt;font&gt;</code>精确度<code>&lt;/font&gt;&lt;font&gt;</code>准确度<code>&lt;/font&gt;&lt;font&gt;</code>粗值<code>&lt;/font&gt;&lt;font&gt;</code>观测值<code>&lt;/font&gt;&lt;font&gt;</code>平差值<code>&lt;/font&gt;</code>等。</p><p><code>&lt;span alt="emp"&gt;</code>主体内容就是间接平差，条件平差。在这两者基础之上，间接平差参数选择比较多，就出现附有限制条件的间接平差。如果条件平差又有参数，就称作附有参数的条件平差 。然后是误差椭圆，分析误差分布规律的，哪里误差大，哪里误差小。最后为了评定平差结果或者精度的好坏，又有一部分参数检验和假设检验的内容，不过基本都是概率论的内容，比如U检验，T检验等，所以还是需要熟悉一些参数的构造。</p><h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="观测误差的分类及其处理"><a href="#观测误差的分类及其处理" class="headerlink" title="观测误差的分类及其处理"></a>观测误差的分类及其处理</h2><p>给出误差分类的表达式，粗差、系统误差和偶然误差的定义。</p><ul><li>系统误差：在相同的观测条件下作一系列的观测，如果误差在大小、符号上表现出系统性，或者在观测过程中按一定的规律变化，或者为某一常数，那么，这种误差称为系统误差。简言之，符合函数规律的误差称为系统误差。</li><li>偶然误差：在相同的观测条件下作一系列的观测，如果误差在大小和符号上都表现出偶然性，即从单个误差看，该列误差的大小和符号没有规律性，但就大量误差的总体而言，具有一定的统计规律，这种误差称为偶然误差。简言之，符合统计规律的误差称为偶然误差。</li></ul><p>误差来源：来源于测量仪器，观测者，外界条件</p><h2 id="精度，准确度，精确度"><a href="#精度，准确度，精确度" class="headerlink" title="精度，准确度，精确度"></a>精度，准确度，精确度</h2><p><img src="https://s3.bmp.ovh/imgs/2022/05/06/b23c97d0fb907a2d.jpg" alt=""></p><h2 id="误差传播定律和协因数传播定律"><a href="#误差传播定律和协因数传播定律" class="headerlink" title="误差传播定律和协因数传播定律"></a>误差传播定律和协因数传播定律</h2><p><code>&lt;span alt="hollow"&gt;</code>这部分其实很简单，就是将需要计算方差的量与已知协因数阵的量建立联系，然后根据公式求</p><script type="math/tex; mode=display">D_{ZY}=KD_{XX}F^T</script><p><code>&lt;span alt="wavy"&gt;</code>这个公式如果看不懂就没救了，赶紧复习吧。</p><h2 id="定权"><a href="#定权" class="headerlink" title="定权"></a>定权</h2><p>水准</p><script type="math/tex; mode=display">\sigma _{h_{AB}}=\sqrt{n}\sigma _0\left( \sigma _0\text{为每一站的中误差} \right)</script><script type="math/tex; mode=display">\text{注意：地势平坦时}\sqrt{n}\text{换成}\sqrt{S}</script><p><code>&lt;span alt="blink"&gt;</code>同精度观测值的算数平均数的精度？？自己想想</p><h2 id="常见的数学模型"><a href="#常见的数学模型" class="headerlink" title="常见的数学模型"></a>常见的数学模型</h2><ol><li>间接平差：将观测值的改正数用参数表示出来；方程总数：n；参数个数u=t;自由度f=r=n-t;</li><li>条件平差: 根据已知图形的客观条件进行列些方程式；方程总数：r；参数个数u=0;自由度f=r=n-t;</li><li>具有参数的条件平差: 以条件方程为主，结合相应选择的参数1进行列写方程；方程总数：r+u；参数个数u&lt;t;自由度f=r=n-t;</li><li>附有条件的参数平差:以选择的参数为主，客观条件为辅进行列些方程；方程总数：n+s；参数个数u&gt;t;自由度f=r=n-t;s=u-t;</li></ol><h2 id="最小二乘原理"><a href="#最小二乘原理" class="headerlink" title="最小二乘原理"></a>最小二乘原理</h2><p><code>&lt;span alt="rainbow"&gt;</code>代数角度</p><script type="math/tex; mode=display">V^TPV=\min</script><p>(其中，V为观测值的改正数向量）；</p><p><code>&lt;span alt="shake"&gt;</code>概率角度：结合正态分布的最大似然估计进行求解</p><h2 id="条件平差原理"><a href="#条件平差原理" class="headerlink" title="条件平差原理"></a>条件平差原理</h2><p><code>&lt;span alt="modern"&gt;</code>由于观测值个数多于必要观测数，产生了多余观测，因此会有额外的条件进行列立方程式。方程式个数即为多余观测数，r=n-t。</p><h2 id="条件方程列立"><a href="#条件方程列立" class="headerlink" title="条件方程列立"></a>条件方程列立</h2><h3 id="水准网"><a href="#水准网" class="headerlink" title="水准网"></a>水准网</h3><p>有已知水准点的水准网中，必要观测数为未知点数；在没有已知水准点的水准网中，必要观测数为全部网点数减1。</p><h3 id="测角网"><a href="#测角网" class="headerlink" title="测角网"></a>测角网</h3><p>基本条件：图形条件，圆周条件，极条件（固定角条件，固定边条件）；</p><ul><li>图形条件：内角和的条件，如三角形内角和为180°等。</li><li>圆周条件：又称水平条件，即围绕一中心点的各角之和为360°。</li><li>极条件：从一已知边出发，经过不同路径到达另一已知边，理论上结果应该相同。</li></ul><h3 id="测边网"><a href="#测边网" class="headerlink" title="测边网"></a>测边网</h3><p><strong>应用场景有大地四边形，中点多边形等；</strong></p><p>具体方法：角度闭合法，即由测得的边长结合三角形的正余弦条件，推算出角度与边长的关系，进而求得角度改正数与边长改正数的联系，得到角度改正数方程：</p><script type="math/tex; mode=display">V_a=\rho ^{''}\left( V_{S_a}-\cos CV_{S_b}-\cos BV_{S_c} \right) /h_a</script><h3 id="导线网"><a href="#导线网" class="headerlink" title="导线网"></a>导线网</h3><p>对于单一附和导线，要测定一个未知点坐标，必须要测得一条导线边和一个水平角，则若有n-1个未知点，必要观测数t=2（n-1)；总观测值数为n条边长和n+1个水平角共2n+1个，则多余观测恒为3个，故单一附和导线中只有3个条件方程。</p><h2 id="精度评定"><a href="#精度评定" class="headerlink" title="精度评定"></a>精度评定</h2><p>闭合差的协因数阵？联系向量的协因数阵，改正数的协因数阵，观测值的平差值的谐因数阵，都记得吗？</p><h2 id="间接平差原理"><a href="#间接平差原理" class="headerlink" title="间接平差原理"></a>间接平差原理</h2><p>点击确定n，t，u。根据集合关系，列出</p><script type="math/tex; mode=display">V=B\hat{x}-L</script><p>勇最小二乘原理求解</p><script type="math/tex; mode=display">V^TPV=\min</script><h2 id="间接平差的重要公式"><a href="#间接平差的重要公式" class="headerlink" title="间接平差的重要公式"></a>间接平差的重要公式</h2><script type="math/tex; mode=display">B^TPV=0</script><script type="math/tex; mode=display">N_{BB}\hat{x}=W</script><script type="math/tex; mode=display">\hat{x}=\left( B^TPB \right) ^{-1}B^TPL</script><p>这些公式记得吗？</p><h2 id="间接平差重点知识"><a href="#间接平差重点知识" class="headerlink" title="间接平差重点知识"></a>间接平差重点知识</h2><p>1：间接平差的计算步骤</p><p>2：测方向的三角网模型</p><p>3：测角网的函数模型（尤其是反正切的线性化）</p><p><img src="https://s3.bmp.ovh/imgs/2022/05/11/3b33cf07e195bf62.jpg" alt=""></p><p>4：测边网的函数模型（根号的正向化）</p><p><img src="https://s3.bmp.ovh/imgs/2022/05/11/5f61808aef0abd37.jpg" alt=""></p><h2 id="附有参数的条件平差"><a href="#附有参数的条件平差" class="headerlink" title="附有参数的条件平差"></a>附有参数的条件平差</h2><p>模型</p><script type="math/tex; mode=display">AV+Bx-W=0</script><script type="math/tex; mode=display">D=\sigma _{0}^{2}Q=\sigma _{0}^{2}P^{-1}</script><p>法方程</p><script type="math/tex; mode=display">N_{aa}K+B\hat{x}-W=0</script><script type="math/tex; mode=display">B^TK=0</script><p>解</p><script type="math/tex; mode=display">K=N_{aa}^{-1}\left( W-B\hat{x} \right)</script><script type="math/tex; mode=display">\hat{x}=N_{bb}^{-1}B^TN_{aa}^{-1}W</script><h2 id="附有限制条件的间接平差"><a href="#附有限制条件的间接平差" class="headerlink" title="附有限制条件的间接平差"></a>附有限制条件的间接平差</h2><p>函数模型</p><script type="math/tex; mode=display">V=B\hat{x}-L</script><script type="math/tex; mode=display">C\hat{x}+W_x=0</script><p>法方程</p><script type="math/tex; mode=display">N_{bb}\hat{x}+C^TK_s-W=0</script><script type="math/tex; mode=display">C\hat{x}-W_x=0</script><p>联系向量</p><script type="math/tex; mode=display">K_s=N_{cc}^{-1}\left( CN_{bb}^{-1}W+W_x \right)</script><script type="math/tex; mode=display">N_{cc}=CN_{bb}^{-1}C^T</script><h2 id="误差椭圆"><a href="#误差椭圆" class="headerlink" title="误差椭圆"></a>误差椭圆</h2><p>误差椭圆的三个参数：长半轴，短半轴，长半轴或者短半轴的方向</p><p>点位误差曲线：以极大值方向与极小值方向的交点为极点，极大值方向为极轴，以坐标北为起算的角为极角变量，相应方向的中误差为极径变量。最后形成一个封闭曲线</p><p>点位方差计算公式</p><script type="math/tex; mode=display">\sigma _P^2=\sigma _{X}^{2}+\sigma _{Y}^{2}</script><p>任意方向的位差公式</p><script type="math/tex; mode=display">\sigma _{\varphi}^{2}=\sigma _{0}^{2}\left( Q_{xx}\cos ^2\varphi +Q_{yy}\sin ^2\varphi +Q_{xy}\sin 2\varphi \right)</script><p>极大值E，极小值F的判断方法</p><script type="math/tex; mode=display">\tan 2\varphi _0=\frac{2Q_{xy}}{Q_{xx}-Q_{xy}}\text{，}\left( \varphi _0\text{为极值方向} \right)</script><p>重要的计算公式</p><script type="math/tex; mode=display">K=\sqrt{\left( Q_{xx}-Q_{xy} \right) ^2+4Q_{xy}^2}</script><script type="math/tex; mode=display">E^2=\frac{1}{2}\sigma _0^2\left[ \left( Q_{xx}+Q_{yy} \right) +K \right]</script><script type="math/tex; mode=display">F^2=\frac{1}{2}\sigma _0^2\left[ \left( Q_{xx}+Q_{yy} \right) -K \right]</script><script type="math/tex; mode=display">\sigma _{p}^{2}=E^2+F^2</script>]]></content>
       
       
       <categories>
