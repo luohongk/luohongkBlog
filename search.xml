@@ -174,33 +174,6 @@
     
     
     <entry>
-      <title>三维点云与深度学习</title>
-      <link href="/luohongk/luohongkBlog/posts/19d2a4e2.html"/>
-      <url>/luohongk/luohongkBlog/posts/19d2a4e2.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongk\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongk\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="点云深度学习总结"><a href="#点云深度学习总结" class="headerlink" title="点云深度学习总结"></a>点云深度学习总结</h1><h2 id="Multi-view-CNN"><a href="#Multi-view-CNN" class="headerlink" title="Multi-view CNN"></a>Multi-view CNN</h2><p>立体通过不同部分角度的投影得到不同的CNN,然后经过后续的池化，然后经过CNN处理，然后进行分类。角度越多，精度越高，但是数据量越大。</p><h2 id="PointNet"><a href="#PointNet" class="headerlink" title="PointNet"></a>PointNet</h2><h3 id="unordered-Inout"><a href="#unordered-Inout" class="headerlink" title="unordered Inout"></a>unordered Inout</h3><p>无序，直接根据点云进行学习</p><p>MLP为多层感知机，三维到多维的变换，然后进行最大池化，PointNet可以拟合任意连续ide函数（有证明）</p><h3 id="PointNet分类网络的结构"><a href="#PointNet分类网络的结构" class="headerlink" title="PointNet分类网络的结构"></a>PointNet分类网络的结构</h3><h3 id="PintNet分割网络结构"><a href="#PintNet分割网络结构" class="headerlink" title="PintNet分割网络结构"></a>PintNet分割网络结构</h3><h3 id="关于神经网络的一些名词"><a href="#关于神经网络的一些名词" class="headerlink" title="关于神经网络的一些名词"></a>关于神经网络的一些名词</h3><p>卷积神经网络，全连接层，激活函数，损失函数</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 博客篇 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 深度学习 </tag>
-            
-            <tag> 点云 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于我的生活</title>
       <link href="/luohongk/luohongkBlog/posts/19d1a4e9.html"/>
       <url>/luohongk/luohongkBlog/posts/19d1a4e9.html</url>
@@ -222,6 +195,33 @@
             <tag> 感受 </tag>
             
             <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>三维点云与深度学习</title>
+      <link href="/luohongk/luohongkBlog/posts/19d2a4e2.html"/>
+      <url>/luohongk/luohongkBlog/posts/19d2a4e2.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongk\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongk\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="点云深度学习总结"><a href="#点云深度学习总结" class="headerlink" title="点云深度学习总结"></a>点云深度学习总结</h1><h2 id="Multi-view-CNN"><a href="#Multi-view-CNN" class="headerlink" title="Multi-view CNN"></a>Multi-view CNN</h2><p>立体通过不同部分角度的投影得到不同的CNN,然后经过后续的池化，然后经过CNN处理，然后进行分类。角度越多，精度越高，但是数据量越大。</p><h2 id="PointNet"><a href="#PointNet" class="headerlink" title="PointNet"></a>PointNet</h2><h3 id="unordered-Inout"><a href="#unordered-Inout" class="headerlink" title="unordered Inout"></a>unordered Inout</h3><p>无序，直接根据点云进行学习</p><p>MLP为多层感知机，三维到多维的变换，然后进行最大池化，PointNet可以拟合任意连续ide函数（有证明）</p><h3 id="PointNet分类网络的结构"><a href="#PointNet分类网络的结构" class="headerlink" title="PointNet分类网络的结构"></a>PointNet分类网络的结构</h3><h3 id="PintNet分割网络结构"><a href="#PintNet分割网络结构" class="headerlink" title="PintNet分割网络结构"></a>PintNet分割网络结构</h3><h3 id="关于神经网络的一些名词"><a href="#关于神经网络的一些名词" class="headerlink" title="关于神经网络的一些名词"></a>关于神经网络的一些名词</h3><p>卷积神经网络，全连接层，激活函数，损失函数</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 深度学习 </tag>
+            
+            <tag> 点云 </tag>
             
         </tags>
       
