@@ -174,9 +174,9 @@
     
     <category term="Hexo" scheme="https://github.com/luohongk/tags/Hexo/"/>
     
-    <category term="博客" scheme="https://github.com/luohongk/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="JAVA,简单算法" scheme="https://github.com/luohongk/tags/JAVA-%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="博客" scheme="https://github.com/luohongk/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -310,9 +310,9 @@
     
     <category term="Hexo" scheme="https://github.com/luohongk/tags/Hexo/"/>
     
-    <category term="Github" scheme="https://github.com/luohongk/tags/Github/"/>
-    
     <category term="博客" scheme="https://github.com/luohongk/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Github" scheme="https://github.com/luohongk/tags/Github/"/>
     
   </entry>
   
