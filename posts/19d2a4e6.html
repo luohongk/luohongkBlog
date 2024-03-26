@@ -698,7 +698,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.9k
+                    1.8k
                 </div>
                 
 
@@ -723,8 +723,8 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>总体感觉测量平差这门课还是不是很容易，需要比较深刻的理解概念还要会相关的推导，比如 <code>&lt;font&gt;</code>精密度 <code>&lt;/font&gt;&lt;font&gt;</code>精确度 <code>&lt;/font&gt;&lt;font&gt;</code>准确度 <code>&lt;/font&gt;&lt;font&gt;</code>粗值 <code>&lt;/font&gt;&lt;font&gt;</code>观测值 <code>&lt;/font&gt;&lt;font&gt;</code>平差值 <code>&lt;/font&gt;</code>等。</p>
-<p><code>&lt;span alt="emp"&gt;</code>主体内容就是间接平差，条件平差。在这两者基础之上，间接平差参数选择比较多，就出现附有限制条件的间接平差。如果条件平差又有参数，就称作附有参数的条件平差 。然后是误差椭圆，分析误差分布规律的，哪里误差大，哪里误差小。最后为了评定平差结果或者精度的好坏，又有一部分参数检验和假设检验的内容，不过基本都是概率论的内容，比如U检验，T检验等，所以还是需要熟悉一些参数的构造。</p>
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>总体感觉测量平差这门课还是不是很容易，需要比较深刻的理解概念还要会相关的推导，比如 <code>&lt;font&gt;</code>精密度 <code>精确度</code> <code>准确度</code> <code>粗值</code> <code>观测值</code> <code>平差值</code> 等。</p>
+<p>主体内容就是间接平差，条件平差。在这两者基础之上，间接平差参数选择比较多，就出现附有限制条件的间接平差。如果条件平差又有参数，就称作附有参数的条件平差 。然后是误差椭圆，分析误差分布规律的，哪里误差大，哪里误差小。最后为了评定平差结果或者精度的好坏，又有一部分参数检验和假设检验的内容，不过基本都是概率论的内容，比如U检验，T检验等，所以还是需要熟悉一些参数的构造。</p>
 <h1 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h1><h2 id="观测误差的分类及其处理"><a href="#观测误差的分类及其处理" class="headerlink" title="观测误差的分类及其处理"></a>观测误差的分类及其处理</h2><p>给出误差分类的表达式，粗差、系统误差和偶然误差的定义。</p>
 <ul>
 <li>系统误差：在相同的观测条件下作一系列的观测，如果误差在大小、符号上表现出系统性，或者在观测过程中按一定的规律变化，或者为某一常数，那么，这种误差称为系统误差。简言之，符合函数规律的误差称为系统误差。</li>
@@ -732,24 +732,24 @@
 </ul>
 <p>误差来源：来源于测量仪器，观测者，外界条件</p>
 <h2 id="精度，准确度，精确度"><a href="#精度，准确度，精确度" class="headerlink" title="精度，准确度，精确度"></a>精度，准确度，精确度</h2><p><img src="https://s3.bmp.ovh/imgs/2022/05/06/b23c97d0fb907a2d.jpg" alt=""></p>
-<h2 id="误差传播定律和协因数传播定律"><a href="#误差传播定律和协因数传播定律" class="headerlink" title="误差传播定律和协因数传播定律"></a>误差传播定律和协因数传播定律</h2><p><code>&lt;span alt="hollow"&gt;</code>这部分其实很简单，就是将需要计算方差的量与已知协因数阵的量建立联系，然后根据公式求</p>
+<h2 id="误差传播定律和协因数传播定律"><a href="#误差传播定律和协因数传播定律" class="headerlink" title="误差传播定律和协因数传播定律"></a>误差传播定律和协因数传播定律</h2><p>这部分其实很简单，就是将需要计算方差的量与已知协因数阵的量建立联系，然后根据公式求</p>
 <script type="math/tex; mode=display">
-D_{ZY}=KD_{XX}F^T</script><p><code>&lt;span alt="wavy"&gt;</code>这个公式如果看不懂就没救了，赶紧复习吧。</p>
+D_{ZY}=KD_{XX}F^T</script><p>这个公式如果看不懂就没救了，赶紧复习吧。</p>
 <h2 id="定权"><a href="#定权" class="headerlink" title="定权"></a>定权</h2><p>水准</p>
 <script type="math/tex; mode=display">
 \sigma _{h_{AB}}=\sqrt{n}\sigma _0\left( \sigma _0\text{为每一站的中误差} \right)</script><script type="math/tex; mode=display">
-\text{注意：地势平坦时}\sqrt{n}\text{换成}\sqrt{S}</script><p><code>&lt;span alt="blink"&gt;</code>同精度观测值的算数平均数的精度？？自己想想</p>
+\text{注意：地势平坦时}\sqrt{n}\text{换成}\sqrt{S}</script><p>同精度观测值的算数平均数的精度？？自己想想</p>
 <h2 id="常见的数学模型"><a href="#常见的数学模型" class="headerlink" title="常见的数学模型"></a>常见的数学模型</h2><ol>
 <li>间接平差：将观测值的改正数用参数表示出来；方程总数：n；参数个数u=t;自由度f=r=n-t;</li>
 <li>条件平差: 根据已知图形的客观条件进行列些方程式；方程总数：r；参数个数u=0;自由度f=r=n-t;</li>
 <li>具有参数的条件平差: 以条件方程为主，结合相应选择的参数1进行列写方程；方程总数：r+u；参数个数u&lt;t;自由度f=r=n-t;</li>
 <li>附有条件的参数平差:以选择的参数为主，客观条件为辅进行列些方程；方程总数：n+s；参数个数u&gt;t;自由度f=r=n-t;s=u-t;</li>
 </ol>
-<h2 id="最小二乘原理"><a href="#最小二乘原理" class="headerlink" title="最小二乘原理"></a>最小二乘原理</h2><p><code>&lt;span alt="rainbow"&gt;</code>代数角度</p>
+<h2 id="最小二乘原理"><a href="#最小二乘原理" class="headerlink" title="最小二乘原理"></a>最小二乘原理</h2><p>代数角度</p>
 <script type="math/tex; mode=display">
 V^TPV=\min</script><p>(其中，V为观测值的改正数向量）；</p>
-<p><code>&lt;span alt="shake"&gt;</code>概率角度：结合正态分布的最大似然估计进行求解</p>
-<h2 id="条件平差原理"><a href="#条件平差原理" class="headerlink" title="条件平差原理"></a>条件平差原理</h2><p><code>&lt;span alt="modern"&gt;</code>由于观测值个数多于必要观测数，产生了多余观测，因此会有额外的条件进行列立方程式。方程式个数即为多余观测数，r=n-t。</p>
+<p>概率角度：结合正态分布的最大似然估计进行求解</p>
+<h2 id="条件平差原理"><a href="#条件平差原理" class="headerlink" title="条件平差原理"></a>条件平差原理</h2><p>由于观测值个数多于必要观测数，产生了多余观测，因此会有额外的条件进行列立方程式。方程式个数即为多余观测数，r=n-t。</p>
 <h2 id="条件方程列立"><a href="#条件方程列立" class="headerlink" title="条件方程列立"></a>条件方程列立</h2><h3 id="水准网"><a href="#水准网" class="headerlink" title="水准网"></a>水准网</h3><p>有已知水准点的水准网中，必要观测数为未知点数；在没有已知水准点的水准网中，必要观测数为全部网点数减1。</p>
 <h3 id="测角网"><a href="#测角网" class="headerlink" title="测角网"></a>测角网</h3><p>基本条件：图形条件，圆周条件，极条件（固定角条件，固定边条件）；</p>
 <ul>
