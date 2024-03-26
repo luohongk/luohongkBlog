@@ -1820,7 +1820,7 @@ footer .copy-right {
     padding: 1px 5px 1px 4px;
     border-radius: 2px;
     background-color: #f2f2f2;
-    color: #e96900;
+    color: #020202;
     font-style: normal;
     white-space: pre-wrap;
 }
@@ -1837,7 +1837,7 @@ footer .copy-right {
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
+    background: linear-gradient(to bottom right, #000000 0%, #000000 100%);
     width: 48px;
     height: 48px;
 }

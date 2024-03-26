@@ -148,9 +148,9 @@
     
     <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog/tags/Hexo/"/>
     
-    <category term="python,前端" scheme="https://github.com/luohongk/luohongkBlog/tags/python-%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="博客" scheme="https://github.com/luohongk/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="python,前端" scheme="https://github.com/luohongk/luohongkBlog/tags/python-%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -176,9 +176,9 @@
     
     <category term="Hexo" scheme="https://github.com/luohongk/luohongkBlog/tags/Hexo/"/>
     
-    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="Github" scheme="https://github.com/luohongk/luohongkBlog/tags/Github/"/>
+    
+    <category term="博客" scheme="https://github.com/luohongk/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
