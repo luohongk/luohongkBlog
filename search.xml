@@ -80,9 +80,9 @@
             
             <tag> Hexo </tag>
             
-            <tag> JAVA,简单算法 </tag>
-            
             <tag> 博客 </tag>
+            
+            <tag> JAVA,简单算法 </tag>
             
         </tags>
       
@@ -151,7 +151,7 @@
       <link href="/luohongkBlog/posts/e3e08109.html"/>
       <url>/luohongkBlog/posts/e3e08109.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h4 id="姓名"><a href="#姓名" class="headerlink" title="姓名"></a>姓名</h4><p>罗宏昆</p><h4 id="性别"><a href="#性别" class="headerlink" title="性别"></a>性别</h4><p>男</p><h4 id="出生日期"><a href="#出生日期" class="headerlink" title="出生日期"></a>出生日期</h4><p>2002.7.15</p><h4 id="兴趣爱好"><a href="#兴趣爱好" class="headerlink" title="兴趣爱好"></a>兴趣爱好</h4><p>唱歌，打乒乓球，下象棋</p><h4 id="个人评价"><a href="#个人评价" class="headerlink" title="个人评价"></a>个人评价</h4><p>一个正在努力学习的菜鸡</p><h4 id="个人技能"><a href="#个人技能" class="headerlink" title="个人技能"></a>个人技能</h4><p>C++ (菜鸡水平)</p><p>matlab（数学建模常用，所以学了）</p><p>python（里面的包比较有意思，目前涉足深度学习领域，正在学习torch）</p><p>java(正在上的一门课程)</p><p>html,css,js（前端开发，会一些基本的东西，还有半桶水的Vue，其实js也不咋地）</p><p>CAD,CASS（数字地形测量实习以及计算机地图制图课程有用到）</p><p>ArcGIS（地图学，地理信息系统原理课程实验和实习用到）</p><p>ENVI（环境遥感，遥感原理与应用,ENVI遥感软件）</p><p>latex（应该可以搜搜改改用latex写一篇论文，工程测量学的作业用latex写的）</p><p>polSARpro（环境遥感课程用到，对SAR数据进行处理）</p><p>Smart3D（测绘劳动实践课用这个做三维立体模型）</p><h4 id="所获奖项"><a href="#所获奖项" class="headerlink" title="所获奖项"></a>所获奖项</h4><p>国家级：全国大学生程序设计编程挑战赛铜奖</p><p>省级：全国大学生外包服务大三等奖，全国大学生能源经济学术创意大赛二等奖，五一数学建模联赛二等奖，江苏省高等数学竞赛三等奖，江苏省财务大数据比赛三等奖，全国大学电工杯数学建模三等奖（先写这这么多。有些比赛级别不好说）</p><p>校级：中国矿业大学高等数学竞赛二等奖，中国矿业大学概率论竞赛三等奖，中国矿业大学博学杯数学建模三等奖，中国矿业大学matlab镜湖美化大赛二等奖（还有一些文艺比赛就不列举了）</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h4 id="姓名"><a href="#姓名" class="headerlink" title="姓名"></a>姓名</h4><p>罗宏昆</p><h4 id="性别"><a href="#性别" class="headerlink" title="性别"></a>性别</h4><p>男</p><h4 id="出生日期"><a href="#出生日期" class="headerlink" title="出生日期"></a>出生日期</h4><p>2002.7.15</p><h4 id="兴趣爱好"><a href="#兴趣爱好" class="headerlink" title="兴趣爱好"></a>兴趣爱好</h4><p>唱歌，打乒乓球，下象棋</p><h4 id="个人评价"><a href="#个人评价" class="headerlink" title="个人评价"></a>个人评价</h4><p>一个正在努力学习的菜鸡</p><h4 id="个人主页"><a href="#个人主页" class="headerlink" title="个人主页"></a>个人主页</h4><p><a href="https://luohongkun.com/">Hongkun Luo (Ternence Luo) (luohongkun.com)</a><br>网址：<a href="https://luohongkun.com/">https://luohongkun.com/</a></p>]]></content>
       
       
       <categories>
@@ -165,9 +165,9 @@
             
             <tag> Hexo </tag>
             
-            <tag> 博客 </tag>
-            
             <tag> Github </tag>
+            
+            <tag> 博客 </tag>
             
         </tags>
       

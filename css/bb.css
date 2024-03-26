@@ -7,7 +7,7 @@ div.timenode:after {
     content: '';
     z-index: 1;
     position: absolute;
-    background: rgba(68, 215, 182, 0.5);
+    background: hsla(163, 10%, 86%, 0.5);
     width: 2px;
     left: 7px;
 }
