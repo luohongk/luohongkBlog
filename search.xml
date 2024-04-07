@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>SuerPoint与fbow来训练一个基于深度学习的词袋</title>
+      <link href="/luohongkBlog/posts/17d2a4e6.html"/>
+      <url>/luohongkBlog/posts/17d2a4e6.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="SuperPoint-FBOW"><a href="#SuperPoint-FBOW" class="headerlink" title="SuperPoint_FBOW"></a>SuperPoint_FBOW</h1><p>本项目是通过SuerPoint与fbow来训练一个基于深度学习词袋</p><h2 id="使用的教学视频"><a href="#使用的教学视频" class="headerlink" title="使用的教学视频"></a>使用的教学视频</h2><p><a href="https://www.bilibili.com/video/BV1TT421m7Tj/?spm_id_from=333.999.0.0&amp;vd_source=3d68818394dd7dd28a8186a3fe19fee5"><br>  <img src="https://s2.loli.net/2024/04/06/gUmPGZ8sYcoL9M1.jpg" alt="B站教学视频"></a></p><h2 id="第三方库依赖"><a href="#第三方库依赖" class="headerlink" title="第三方库依赖"></a>第三方库依赖</h2><p>opencv3.2.0（opencv4我还没测试过)</p><p>libtorch1.0.1</p><p>fbow(参考官方仓库：<a href="https://github.com/rmsalinas/fbow">https://github.com/rmsalinas/fbow</a>)</p><h2 id="步骤说明"><a href="#步骤说明" class="headerlink" title="步骤说明"></a>步骤说明</h2><p>如果图片名称都转换完毕了，那就开始如下步骤</p><ol><li><p>下载仓库</p><pre class="line-numbers language-none"><code class="language-none">git clone https://github.com/luohongk/SuperPoint_FBOW.gitcd SuperPoint_FBOW<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li><li><p>安装libtorch库</p><pre class="line-numbers language-none"><code class="language-none">项目根目录执如下命令chmod +x libtorch_download.sh./libtorch_download.sh<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li><li><p>编译superpoint<br>在编译superpoint之前，请你先将目录SuperPoint_FBOW/superpoint/src/SPextractor.cc文件中的第152行的权重路径换乘superpoint.pt在你电脑上的绝对路径。</p><pre class="line-numbers language-none"><code class="language-none">项目根目录执如下命令chmod +x build_superpoint.sh./build_superpoint.sh<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>编译完成后项目根目录superpoint下有一个build文件夹。build文件夹下有一个libsuperpoint.so。把libsuperpoint.so复制到（根目录/utils/superpoint)。</p></li><li><p>编译main入口文件</p><p>在编译之前，请你将SuperPoint_FBOW/utils/fbow_create_voc_step0.cpp文件中的一部分代码设置成你想要的路径。<code>string outputfilename ="/home/lhk/data/output/superpoint.fbow";这里注意一定要有superpoint.fbow!!!</code></p><p>第168行 <code>std::stringfolderPath="/home/lhk/workspace/SuperPoint_FBOW/utils/renamed_images"; // 替换为你的训练图片的文件夹路径</code></p><pre class="line-numbers language-none"><code class="language-none">string des="descriptor"; string outputfilename ="/home/lhk/data/output/superpoint.fbow"; // 将特征保存到文件 std::cerr &lt;&lt; "saving to " &lt;&lt;outputfilename&lt;&lt; std::endl; saveToFile(outputfilename,descriptors,des); return 0;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">项目根目录执如下命令chmod +x run.sh./run.sh<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li><li><p>运行输出深度学习描述子（当然，这里也可以输出深度学习特征点，具体就看看代码)</p><pre class="line-numbers language-none"><code class="language-none">项目根目录执如下命令cd build/utils./fbow_create_voc_step0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li><li><p>输出词袋</p><pre class="line-numbers language-none"><code class="language-none">./fbow_create_voc_step1 /home/lhk/workspace/SuperPoint_FBOW/output/superpoint.fbow /home/lhk/workspace/SuperPoint_FBOW/output/superpointVoc.txt<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol><h3 id="系统说明"><a href="#系统说明" class="headerlink" title="系统说明"></a>系统说明</h3><p>系统：ubuntu18.04（其他系统没有测试过，可能会出现一些bug)</p><h3 id="图片名称转换说明-如果想要训练自己的图片的话"><a href="#图片名称转换说明-如果想要训练自己的图片的话" class="headerlink" title="图片名称转换说明(如果想要训练自己的图片的话)"></a>图片名称转换说明(如果想要训练自己的图片的话)</h3><p>需要训练的图片放置在 <code>imges</code>文件夹。在进行训练之前需要用 <code>python</code>先对 <code>images</code>文件夹中的图片重命名。</p><p>首先得电脑中得能运行python代码。（pyhton环境配置)</p><p>安装os,shutil这两个库(一般都自带)</p><p>图片名称转换，运行如下代码</p><pre class="line-numbers language-none"><code class="language-none">git clone https://github.com/luohongk/SuperPoint_FBOW.gitcd SuperPoint_FBOWpython ./imagesProcess.py<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 深度学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Smart3D三维立体影像的制作</title>
       <link href="/luohongkBlog/posts/15d2a3e9.html"/>
       <url>/luohongkBlog/posts/15d2a3e9.html</url>
@@ -83,33 +110,6 @@
             <tag> 博客 </tag>
             
             <tag> JAVA,简单算法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>三维点云与深度学习</title>
-      <link href="/luohongkBlog/posts/19d2a4e2.html"/>
-      <url>/luohongkBlog/posts/19d2a4e2.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\luohongkBlog\assets\css\APlayer.min.css"><script src="\luohongkBlog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="点云深度学习总结"><a href="#点云深度学习总结" class="headerlink" title="点云深度学习总结"></a>点云深度学习总结</h1><h2 id="Multi-view-CNN"><a href="#Multi-view-CNN" class="headerlink" title="Multi-view CNN"></a>Multi-view CNN</h2><p>立体通过不同部分角度的投影得到不同的CNN,然后经过后续的池化，然后经过CNN处理，然后进行分类。角度越多，精度越高，但是数据量越大。</p><h2 id="PointNet"><a href="#PointNet" class="headerlink" title="PointNet"></a>PointNet</h2><h3 id="unordered-Inout"><a href="#unordered-Inout" class="headerlink" title="unordered Inout"></a>unordered Inout</h3><p>无序，直接根据点云进行学习</p><p>MLP为多层感知机，三维到多维的变换，然后进行最大池化，PointNet可以拟合任意连续ide函数（有证明）</p><h3 id="PointNet分类网络的结构"><a href="#PointNet分类网络的结构" class="headerlink" title="PointNet分类网络的结构"></a>PointNet分类网络的结构</h3><h3 id="PintNet分割网络结构"><a href="#PintNet分割网络结构" class="headerlink" title="PintNet分割网络结构"></a>PintNet分割网络结构</h3><h3 id="关于神经网络的一些名词"><a href="#关于神经网络的一些名词" class="headerlink" title="关于神经网络的一些名词"></a>关于神经网络的一些名词</h3><p>卷积神经网络，全连接层，激活函数，损失函数</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 博客篇 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 点云 </tag>
-            
-            <tag> 深度学习 </tag>
             
         </tags>
       
