@@ -15,7 +15,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="放松一下, 测绘 计算机">
+    <meta name="keywords" content="高斯牛顿法实现曲线拟合, 测绘 计算机">
     <meta name="description" content="本科 | 测绘工程 ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -28,7 +28,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>放松一下 | Ternence</title>
+    <title>高斯牛顿法实现曲线拟合 | Ternence</title>
 
     <link rel="icon" type="image/jpeg" href="https://s3.bmp.ovh/imgs/2022/04/30/a5e6ec1fd94e0dbd.jpg">
 
@@ -525,12 +525,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://s2.loli.net/2022/11/15/YpmUl4tFu8rxGf7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://s2.loli.net/2022/11/15/8scJQrAYPDEz5I1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">放松一下</h1>
+                    <h1 class="description center-align post-title">高斯牛顿法实现曲线拟合</h1>
                 </div>
             </div>
         </div>
@@ -649,12 +649,33 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/luohongkBlog/tags/python/">
+                                <span class="chip bg-color">python</span>
+                            </a>
+                        
+                            <a href="/luohongkBlog/tags/%E9%AB%98%E6%96%AF%E7%89%9B%E9%A1%BF%E6%B3%95/">
+                                <span class="chip bg-color">高斯牛顿法</span>
+                            </a>
+                        
+                            <a href="/luohongkBlog/tags/%E6%9B%B2%E7%BA%BF%E6%8B%9F%E5%90%88/">
+                                <span class="chip bg-color">曲线拟合</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/luohongkBlog/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/" class="post-category">
+                                学习篇
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -663,28 +684,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-08-10
+                    2024-04-22
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-06-13
+                    2024-04-22
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    6
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    7 分
                 </div>
                 
 
@@ -702,8 +723,213 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="影音资源共享"><a href="#影音资源共享" class="headerlink" title="影音资源共享"></a>影音资源共享</h1>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=2979186&amp;cid=4667585&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
+                <h3 id="本文使用高斯牛顿法实现曲线拟合"><a href="#本文使用高斯牛顿法实现曲线拟合" class="headerlink" title="本文使用高斯牛顿法实现曲线拟合"></a>本文使用高斯牛顿法实现曲线拟合</h3><h4 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h4><p>一方面出于学习的目的完成这个小项目，另一方面出于为其他的同学提供一个相关的代码学习资料</p>
+<h4 id="拟合方程"><a href="#拟合方程" class="headerlink" title="拟合方程"></a>拟合方程</h4><script type="math/tex; mode=display">
+y=e^{ax^3+bx^2+cx+d}+w</script><h4 id="数据产生（随机数产生，误差服从高斯分布）"><a href="#数据产生（随机数产生，误差服从高斯分布）" class="headerlink" title="数据产生（随机数产生，误差服从高斯分布）"></a>数据产生（随机数产生，误差服从高斯分布）</h4><script type="math/tex; mode=display">
+w~\left( 0,\sigma ^2 \right)</script><h4 id="误差定义"><a href="#误差定义" class="headerlink" title="误差定义"></a>误差定义</h4><script type="math/tex; mode=display">
+er_{i}=y_i-e^{ax_{i}^{3}+bx_{i}^{2}+cx_i+d}</script><h4 id="求偏导（最关键）"><a href="#求偏导（最关键）" class="headerlink" title="求偏导（最关键）"></a>求偏导（最关键）</h4><script type="math/tex; mode=display">
+\left\{ \begin{array}{l}
+    \frac{\partial er_i}{\partial a}=-x_{i}^{3}e^{ax_{i}^{3}+bx_{i}^{2}+cx_i+d}\\
+    \frac{\partial er_i}{\partial a}=-x_{i}^{2}e^{ax_{i}^{3}+bx_{i}^{2}+cx_i+d}\\
+    \frac{\partial er_i}{\partial c}=-x_ie^{ax_{i}^{3}+bx_{i}^{2}+cx_i+d}\\
+    \frac{\partial er_i}{\partial d}=-e^{ax_{i}^{3}+bx_{i}^{2}+cx_i+d}\\
+\end{array} \right.</script><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># 产生固定间隔的数组</span>
+<span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+
+start <span class="token operator">=</span> <span class="token number">0</span>   <span class="token comment"># 起始值</span>
+stop <span class="token operator">=</span> <span class="token number">1.5</span>   <span class="token comment"># 结束值（不包含在数组中）</span>
+step <span class="token operator">=</span> <span class="token number">0.01</span>    <span class="token comment"># 间隔</span>
+
+arr <span class="token operator">=</span> np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span>start<span class="token punctuation">,</span> stop<span class="token punctuation">,</span> step<span class="token punctuation">)</span>
+<span class="token comment"># print(arr)</span>
+
+
+mean <span class="token operator">=</span> <span class="token number">0</span>    <span class="token comment"># 均值</span>
+std <span class="token operator">=</span> <span class="token number">10</span>    <span class="token comment"># 标准差</span>
+size <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token punctuation">(</span>stop<span class="token operator">-</span>start<span class="token punctuation">)</span><span class="token operator">/</span>step<span class="token punctuation">)</span>  <span class="token comment"># 数组大小</span>
+
+noise <span class="token operator">=</span> np<span class="token punctuation">.</span>random<span class="token punctuation">.</span>normal<span class="token punctuation">(</span>mean<span class="token punctuation">,</span> std<span class="token punctuation">,</span> size<span class="token punctuation">)</span>
+<span class="token comment"># print(noise)</span>
+
+
+<span class="token comment"># 生成观测数据x,y</span>
+
+<span class="token comment"># 定义函数参数</span>
+a <span class="token operator">=</span> <span class="token number">0.5</span>
+b <span class="token operator">=</span> <span class="token number">1</span>
+c <span class="token operator">=</span> <span class="token number">2.0</span>
+d <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span>
+x<span class="token operator">=</span>arr
+obs_y<span class="token operator">=</span>np<span class="token punctuation">.</span>exp<span class="token punctuation">(</span>a<span class="token operator">*</span>x<span class="token operator">**</span><span class="token number">3</span> <span class="token operator">+</span> b<span class="token operator">*</span>x<span class="token operator">**</span><span class="token number">2</span> <span class="token operator">+</span> c<span class="token operator">*</span>x <span class="token operator">+</span> d<span class="token punctuation">)</span><span class="token operator">+</span>noise<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
+<span class="token keyword">import</span> matplotlib
+matplotlib<span class="token punctuation">.</span>rc<span class="token punctuation">(</span><span class="token string">"font"</span><span class="token punctuation">,</span>family<span class="token operator">=</span><span class="token string">'MicroSoft YaHei'</span><span class="token punctuation">,</span>weight<span class="token operator">=</span><span class="token string">"bold"</span><span class="token punctuation">)</span>
+<span class="token comment"># 绘制图像</span>
+
+<span class="token comment"># 定义函数</span>
+<span class="token keyword">def</span> <span class="token function">f</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>A<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> np<span class="token punctuation">.</span>exp<span class="token punctuation">(</span>A<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">*</span>x<span class="token operator">**</span><span class="token number">3</span> <span class="token operator">+</span> A<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">*</span>x<span class="token operator">**</span><span class="token number">2</span> <span class="token operator">+</span> A<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">*</span>x <span class="token operator">+</span> A<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 计算对应的 y 值</span>
+y <span class="token operator">=</span> f<span class="token punctuation">(</span>x<span class="token punctuation">,</span><span class="token punctuation">[</span>a<span class="token punctuation">,</span>b<span class="token punctuation">,</span>c<span class="token punctuation">,</span>d<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>scatter<span class="token punctuation">(</span>x<span class="token punctuation">,</span> obs_y<span class="token punctuation">,</span> color<span class="token operator">=</span><span class="token string">'red'</span><span class="token punctuation">,</span> s<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span>label<span class="token operator">=</span><span class="token string">'Scatter Points'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'x'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'y'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">'正确地函数图像'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>grid<span class="token punctuation">(</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><img src="https://s2.loli.net/2024/04/22/bQh3vX7uJoipO1E.png" alt="png"></p>
+<h4 id="高斯牛顿迭代进行曲线拟合（我理解为间接平差升级版）"><a href="#高斯牛顿迭代进行曲线拟合（我理解为间接平差升级版）" class="headerlink" title="高斯牛顿迭代进行曲线拟合（我理解为间接平差升级版）"></a>高斯牛顿迭代进行曲线拟合（我理解为间接平差升级版）</h4><p>直接求得解析解</p>
+<script type="math/tex; mode=display">
+V=Bx-L</script><script type="math/tex; mode=display">
+x=\left( B^TB \right) *\left( B^TL \right)</script><script type="math/tex; mode=display">
+\left[ \begin{array}{c}
+    er_1\\
+    er_2\\
+    \vdots\\
+    er_{n-1}\\
+    er_n\\
+\end{array} \right] =\boldsymbol{B}\left[ \begin{array}{c}
+    \varDelta a\\
+    \varDelta b\\
+    \varDelta c\\
+    \varDelta d\\
+\end{array} \right] -\boldsymbol{L}</script><script type="math/tex; mode=display">
+\boldsymbol{B}=\left[ \begin{matrix}
+    -x_{1}^{3}e^{a_0x_{1}^{3}+b_0x_{1}^{2}+c_0x_1+d_0}&        -x_{1}^{2}e^{a_0x_{1}^{3}+b_0x_{1}^{2}+c_0x_1+d_0}&        -x_1e^{a_0x_{1}^{3}+b_0x_{1}^{2}+c_0x_1+d_0}&        -e^{a_0x_{1}^{3}+b_0x_{1}^{2}+c_0x_1+d_0}\\
+    -x_{2}^{3}e^{a_0x_{2}^{3}+b_0x_{2}^{2}+c_0x_2+d_0}&        -x_{2}^{2}e^{a_0x_{2}^{3}+b_0x_{2}^{2}+c_0x_2+d_0}&        -x_2e^{a_0x_{2}^{3}+b_0x_{2}^{2}+c_0x_2+d_0}&        -e^{a_0x_{2}^{3}+b_0x_{2}^{2}+c_0x_2+d_0}\\
+    \vdots&        \vdots&        \vdots&        \vdots\\
+    -x_{n-1}^{3}e^{a_0x_{n-1}^{3}+b_0x_{n-1}^{2}+c_0x_{n-1}+d_0}&        -x_{n-1}^{2}e^{a_0x_{n-1}^{3}+b_0x_{n-1}^{2}+c_0x_{n-1}+d_0}&        -x_{n-1}e^{a_0x_{n-1}^{3}+b_0x_{n-1}^{2}+c_0x_{n-1}+d_0}&        -e^{a_0x_{n-1}^{3}+b_0x_{n-1}^{2}+c_0x_{n-1}+d_0}\\
+    -x_{n}^{3}e^{a_0x_{n}^{3}+b_0x_{n}^{2}+c_0x_n+d_0}&        -x_{n}^{2}e^{a_0x_{n}^{3}+b_0x_{n}^{2}+c_0x_n+d_0}&        -x_ne^{a_0x_{n}^{3}+b_0x_{n}^{2}+c_0x_n+d_0}&        -e^{a_0x_{n}^{3}+b_0x_{n}^{2}+c_0x_n+d_0}\\
+\end{matrix} \right]</script><script type="math/tex; mode=display">
+L=\left[ \begin{array}{l}
+    e^{a_0x_{1}^{3}+b_0x_{1}^{2}+c_0x_1+d_0}-y_1\\
+    e^{a_0x_{2}^{3}+b_0x_{2}^{2}+c_0x_2+d_0}-y_2\\
+    \vdots\\
+    e^{a_0x_{n-1}^{3}+b_0x_{n-1}^{2}+c_0x_{n-1}+d_0}-y_{n-1}\\
+    e^{a_0x_{n}^{3}+b_0x_{n}^{2}+c_0x_n+d_0}-y_{n}\\
+\end{array} \right]</script><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># 定义a,b,c,d的初始值(随便定)</span>
+a0<span class="token operator">=</span><span class="token number">0.3</span>
+b0<span class="token operator">=</span><span class="token number">0.7</span>
+c0<span class="token operator">=</span><span class="token number">1.6</span>
+d0<span class="token operator">=</span><span class="token operator">-</span><span class="token number">0.7</span>
+
+<span class="token comment"># 定义函数,A为参数数组</span>
+<span class="token keyword">def</span> <span class="token function">f0</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span>A<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> np<span class="token punctuation">.</span>exp<span class="token punctuation">(</span>A<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">*</span>x<span class="token operator">**</span><span class="token number">3</span> <span class="token operator">+</span> A<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">*</span>x<span class="token operator">**</span><span class="token number">2</span> <span class="token operator">+</span> A<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">*</span>x <span class="token operator">+</span> A<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 计算对应的 y 值</span>
+y0 <span class="token operator">=</span> f0<span class="token punctuation">(</span>x<span class="token punctuation">,</span><span class="token punctuation">[</span>a0<span class="token punctuation">,</span>b0<span class="token punctuation">,</span>c0<span class="token punctuation">,</span>d0<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span> y0<span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>scatter<span class="token punctuation">(</span>x<span class="token punctuation">,</span> obs_y<span class="token punctuation">,</span> color<span class="token operator">=</span><span class="token string">'red'</span><span class="token punctuation">,</span> s<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span>label<span class="token operator">=</span><span class="token string">'Scatter Points'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'x'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'y'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">'正确地函数图像'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>grid<span class="token punctuation">(</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><img src="https://s2.loli.net/2024/04/22/naK9xLbS1fURYeQ.png" alt="png"></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># 进行间接平差求解</span>
+<span class="token comment"># 构建B矩阵</span>
+a0_temp<span class="token operator">=</span>a0
+b0_temp<span class="token operator">=</span>b0
+c0_temp<span class="token operator">=</span>c0
+d0_temp<span class="token operator">=</span>d0
+
+approx<span class="token operator">=</span>np<span class="token punctuation">.</span>array<span class="token punctuation">(</span><span class="token punctuation">[</span>a0_temp<span class="token punctuation">,</span>b0_temp<span class="token punctuation">,</span>c0_temp<span class="token punctuation">,</span>d0_temp<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 迭代次数</span>
+n<span class="token operator">=</span><span class="token number">10</span>
+dieDaiResult <span class="token operator">=</span> np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span><span class="token punctuation">(</span>n<span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment"># 用一个</span>
+
+<span class="token keyword">for</span> j <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        B<span class="token operator">=</span>np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span><span class="token punctuation">(</span>size<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        L<span class="token operator">=</span>np<span class="token punctuation">.</span>zeros<span class="token punctuation">(</span><span class="token punctuation">(</span>size<span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>size<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            B<span class="token punctuation">[</span>i<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token operator">-</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">**</span><span class="token number">3</span><span class="token operator">*</span>f0<span class="token punctuation">(</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>approx<span class="token punctuation">)</span>
+            B<span class="token punctuation">[</span>i<span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token operator">-</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">**</span><span class="token number">2</span><span class="token operator">*</span>f0<span class="token punctuation">(</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>approx<span class="token punctuation">)</span>
+            B<span class="token punctuation">[</span>i<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token operator">-</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token operator">*</span>f0<span class="token punctuation">(</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>approx<span class="token punctuation">)</span>
+            B<span class="token punctuation">[</span>i<span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token operator">-</span>f0<span class="token punctuation">(</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>approx<span class="token punctuation">)</span>
+            L<span class="token punctuation">[</span>i<span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">=</span>f0<span class="token punctuation">(</span>x<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>approx<span class="token punctuation">)</span><span class="token operator">-</span>obs_y<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+
+        arr_B<span class="token operator">=</span>np<span class="token punctuation">.</span>array<span class="token punctuation">(</span>B<span class="token punctuation">)</span>
+        arr_L<span class="token operator">=</span>np<span class="token punctuation">.</span>array<span class="token punctuation">(</span>L<span class="token punctuation">)</span>
+        tem1<span class="token operator">=</span>np<span class="token punctuation">.</span>linalg<span class="token punctuation">.</span>inv<span class="token punctuation">(</span>np<span class="token punctuation">.</span>dot<span class="token punctuation">(</span>np<span class="token punctuation">.</span>transpose<span class="token punctuation">(</span>arr_B<span class="token punctuation">)</span><span class="token punctuation">,</span>arr_B<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        tem2<span class="token operator">=</span>np<span class="token punctuation">.</span>dot<span class="token punctuation">(</span>np<span class="token punctuation">.</span>transpose<span class="token punctuation">(</span>arr_B<span class="token punctuation">)</span><span class="token punctuation">,</span>arr_L<span class="token punctuation">)</span>
+
+        delta_x<span class="token operator">=</span>np<span class="token punctuation">.</span>dot<span class="token punctuation">(</span>tem1<span class="token punctuation">,</span>tem2<span class="token punctuation">)</span>
+        <span class="token comment"># 这里进行下一次迭代</span>
+        approx<span class="token operator">=</span>approx<span class="token operator">+</span>delta_x<span class="token punctuation">.</span>flatten<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token comment"># list_approx=approx.</span>
+        dieDaiResult<span class="token punctuation">[</span>j<span class="token punctuation">,</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token operator">=</span>approx
+
+fig <span class="token operator">=</span> plt<span class="token punctuation">.</span>figure<span class="token punctuation">(</span>figsize<span class="token operator">=</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>subplot<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
+<span class="token comment"># 标准曲线</span>
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span>
+<span class="token comment"># 初始曲线</span>
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span> y0<span class="token punctuation">)</span>
+<span class="token comment"># 迭代曲线</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token operator">-</span><span class="token number">8</span><span class="token punctuation">,</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+      xishu<span class="token operator">=</span>dieDaiResult<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+      <span class="token keyword">print</span><span class="token punctuation">(</span>xishu<span class="token punctuation">)</span>
+      tem_y<span class="token operator">=</span>f0<span class="token punctuation">(</span>x<span class="token punctuation">,</span>xishu<span class="token punctuation">)</span>
+      plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span> tem_y<span class="token punctuation">,</span>color<span class="token operator">=</span><span class="token string">'#aa00ff'</span><span class="token punctuation">,</span>linestyle<span class="token operator">=</span><span class="token string">'--'</span><span class="token punctuation">)</span>
+<span class="token comment"># plt.plot(x, y1,color='#aa00ff')</span>
+plt<span class="token punctuation">.</span>scatter<span class="token punctuation">(</span>x<span class="token punctuation">,</span> obs_y<span class="token punctuation">,</span> color<span class="token operator">=</span><span class="token string">'red'</span><span class="token punctuation">,</span> s<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span>label<span class="token operator">=</span><span class="token string">'Scatter Points'</span><span class="token punctuation">)</span>
+<span class="token comment"># plt.plot(x, y1)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'x'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'y'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">'正确地函数图像'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>grid<span class="token punctuation">(</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 创建第二个子图</span>
+plt<span class="token punctuation">.</span>subplot<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
+<span class="token comment"># 标准曲线</span>
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span>
+<span class="token comment"># 初始曲线</span>
+plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span> y0<span class="token punctuation">)</span>
+<span class="token comment"># 迭代曲线</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span>n<span class="token operator">-</span><span class="token number">8</span><span class="token punctuation">,</span>n<span class="token punctuation">)</span><span class="token punctuation">:</span>
+      xishu<span class="token operator">=</span>dieDaiResult<span class="token punctuation">[</span>i<span class="token punctuation">]</span>
+      <span class="token keyword">print</span><span class="token punctuation">(</span>xishu<span class="token punctuation">)</span>
+      tem_y<span class="token operator">=</span>f0<span class="token punctuation">(</span>x<span class="token punctuation">,</span>xishu<span class="token punctuation">)</span>
+      plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>x<span class="token punctuation">,</span> tem_y<span class="token punctuation">,</span>color<span class="token operator">=</span><span class="token string">'#aa00ff'</span><span class="token punctuation">,</span>linestyle<span class="token operator">=</span><span class="token string">'--'</span><span class="token punctuation">)</span>
+<span class="token comment"># plt.plot(x, y1,color='#aa00ff')</span>
+plt<span class="token punctuation">.</span>scatter<span class="token punctuation">(</span>x<span class="token punctuation">,</span> obs_y<span class="token punctuation">,</span> color<span class="token operator">=</span><span class="token string">'red'</span><span class="token punctuation">,</span> s<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span>label<span class="token operator">=</span><span class="token string">'Scatter Points'</span><span class="token punctuation">)</span>
+<span class="token comment"># plt.plot(x, y1)</span>
+plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'x'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'y'</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">'局部放大图'</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 设置局部放大范围</span>
+plt<span class="token punctuation">.</span>xlim<span class="token punctuation">(</span><span class="token number">1.32</span><span class="token punctuation">,</span> <span class="token number">1.44</span><span class="token punctuation">)</span>  <span class="token comment"># 设置 x 轴范围</span>
+plt<span class="token punctuation">.</span>ylim<span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">250</span><span class="token punctuation">)</span>   <span class="token comment"># 设置 y 轴范围</span>
+plt<span class="token punctuation">.</span>grid<span class="token punctuation">(</span><span class="token boolean">True</span><span class="token punctuation">)</span>
+plt<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span> 
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre><code>[ 15.18948191 -48.88914189  58.18225421 -21.87081973]
+[ 11.06123187 -37.62392869  48.70588659 -19.61002625]
+[ 2.98965953 -9.4558721  16.33702568 -7.39086396]
+[-0.25717518  2.86430852  0.85419677 -0.95130386]
+[ 2.28260343 -6.65929933 12.58667395 -5.68529249]
+[-0.53772553  3.94032672 -0.50831067 -0.38253999]
+[ 2.22309202 -6.36924235 12.12862682 -5.44958593]
+[-0.55472966  4.00668407 -0.59381963 -0.34621364]
+[ 15.18948191 -48.88914189  58.18225421 -21.87081973]
+[ 11.06123187 -37.62392869  48.70588659 -19.61002625]
+[ 2.98965953 -9.4558721  16.33702568 -7.39086396]
+[-0.25717518  2.86430852  0.85419677 -0.95130386]
+[ 2.28260343 -6.65929933 12.58667395 -5.68529249]
+[-0.53772553  3.94032672 -0.50831067 -0.38253999]
+[ 2.22309202 -6.36924235 12.12862682 -5.44958593]
+[-0.55472966  4.00668407 -0.59381963 -0.34621364]
+</code></pre><p><img src="https://s2.loli.net/2024/04/22/i7Pl3UTLr5akpxC.png" alt="png"></p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
                 
             </div>
@@ -720,7 +946,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/luohongkBlog/about" rel="external nofollow noreferrer">Ternence</a>
+                    <a href="/luohongkBlog/about" rel="external nofollow noreferrer">罗宏昆</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -730,7 +956,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://github.com/luohongk/luohongkBlog/luohongkBlog/List/index.html">https://github.com/luohongk/luohongkBlog/luohongkBlog/List/index.html</a>
+                    <a href="https://github.com/luohongk/luohongkBlog/luohongkBlog/posts/29d2a4e6.html">https://github.com/luohongk/luohongkBlog/luohongkBlog/posts/29d2a4e6.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -743,7 +969,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/luohongkBlog/about" target="_blank">Ternence</a>
+                    <a href="/luohongkBlog/about" target="_blank">罗宏昆</a>
                     !
                 </span>
             </div>
@@ -767,7 +993,19 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/luohongkBlog/tags/python/">
+                                    <span class="chip bg-color">python</span>
+                                </a>
+                            
+                                <a href="/luohongkBlog/tags/%E9%AB%98%E6%96%AF%E7%89%9B%E9%A1%BF%E6%B3%95/">
+                                    <span class="chip bg-color">高斯牛顿法</span>
+                                </a>
+                            
+                                <a href="/luohongkBlog/tags/%E6%9B%B2%E7%BA%BF%E6%8B%9F%E5%90%88/">
+                                    <span class="chip bg-color">曲线拟合</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -1242,34 +1480,54 @@ new Valine({
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/luohongkBlog/List/index.html">
+                <a href="/luohongkBlog/posts/29d2a4e6.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://s2.loli.net/2022/11/15/YpmUl4tFu8rxGf7.jpg" class="responsive-img" alt="放松一下">
+                        <img src="https://s2.loli.net/2022/11/15/8scJQrAYPDEz5I1.jpg" class="responsive-img" alt="高斯牛顿法实现曲线拟合">
                         
-                        <span class="card-title">放松一下</span>
+                        <span class="card-title">高斯牛顿法实现曲线拟合</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            高斯牛顿法实现曲线拟合
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-08-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-22
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Ternence
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/luohongkBlog/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/" class="post-category">
+                                    学习篇
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/luohongkBlog/tags/python/">
+                        <span class="chip bg-color">python</span>
+                    </a>
+                    
+                    <a href="/luohongkBlog/tags/%E9%AB%98%E6%96%AF%E7%89%9B%E9%A1%BF%E6%B3%95/">
+                        <span class="chip bg-color">高斯牛顿法</span>
+                    </a>
+                    
+                    <a href="/luohongkBlog/tags/%E6%9B%B2%E7%BA%BF%E6%8B%9F%E5%90%88/">
+                        <span class="chip bg-color">曲线拟合</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1277,37 +1535,52 @@ new Valine({
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/luohongkBlog/List/index.html">
+                <a href="/luohongkBlog/posts/17d2a4e6.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://s2.loli.net/2022/11/15/YpmUl4tFu8rxGf7.jpg" class="responsive-img" alt="放松一下">
+                        <img src="https://s2.loli.net/2022/11/15/Jag1DpT2Vx4qWGo.jpg" class="responsive-img" alt="SuerPoint与fbow来训练一个基于深度学习的词袋">
                         
-                        <span class="card-title">放松一下</span>
+                        <span class="card-title">SuerPoint与fbow来训练一个基于深度学习的词袋</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            SuerPoint与fbow
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-08-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-04-07
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Ternence
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/luohongkBlog/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/" class="post-category">
+                                    博客篇
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
+                    </a>
+                    
+                    <a href="/luohongkBlog/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">
+                        <span class="chip bg-color">深度学习</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1472,6 +1745,13 @@ new Valine({
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
 
 
