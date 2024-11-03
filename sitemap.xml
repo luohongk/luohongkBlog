@@ -86,7 +86,7 @@
   </url>
   
   <url>
-    <loc>https://github.com/luohongk/luohongkBlog/archives/index.html</loc>
+    <loc>https://github.com/luohongk/luohongkBlog/categories/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -100,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://github.com/luohongk/luohongkBlog/tags/index.html</loc>
+    <loc>https://github.com/luohongk/luohongkBlog/archives/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
   </url>
   
   <url>
-    <loc>https://github.com/luohongk/luohongkBlog/categories/index.html</loc>
+    <loc>https://github.com/luohongk/luohongkBlog/resource/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -121,7 +121,7 @@
   </url>
   
   <url>
-    <loc>https://github.com/luohongk/luohongkBlog/resource/index.html</loc>
+    <loc>https://github.com/luohongk/luohongkBlog/tags/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -158,20 +158,6 @@
   </url>
   
   <url>
-    <loc>https://github.com/luohongk/luohongkBlog/tags/JAVA-%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2024-11-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://github.com/luohongk/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2024-11-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://github.com/luohongk/luohongkBlog/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/</loc>
     <lastmod>2024-11-03</lastmod>
     <changefreq>daily</changefreq>
@@ -200,7 +186,21 @@
   </url>
   
   <url>
-    <loc>https://github.com/luohongk/luohongkBlog/tags/python-%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://github.com/luohongk/luohongkBlog/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2024-11-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/luohongk/luohongkBlog/tags/JAVA-%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2024-11-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://github.com/luohongk/luohongkBlog/tags/%E6%B5%8B%E9%87%8F%E5%B9%B3%E5%B7%AE/</loc>
     <lastmod>2024-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -221,7 +221,7 @@
   </url>
   
   <url>
-    <loc>https://github.com/luohongk/luohongkBlog/tags/%E6%B5%8B%E9%87%8F%E5%B9%B3%E5%B7%AE/</loc>
+    <loc>https://github.com/luohongk/luohongkBlog/tags/python-%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2024-11-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
