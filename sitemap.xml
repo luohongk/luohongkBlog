@@ -93,21 +93,7 @@
   </url>
   
   <url>
-    <loc>https://github.com/luohongk/luohongkBlog/categories/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://github.com/luohongk/luohongkBlog/census/index.html</loc>
-    
-    <lastmod>2021-06-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://github.com/luohongk/luohongkBlog/resource/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
@@ -121,7 +107,21 @@
   </url>
   
   <url>
+    <loc>https://github.com/luohongk/luohongkBlog/categories/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://github.com/luohongk/luohongkBlog/friends/index.html</loc>
+    
+    <lastmod>2021-06-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://github.com/luohongk/luohongkBlog/resource/index.html</loc>
     
     <lastmod>2021-06-13</lastmod>
     
